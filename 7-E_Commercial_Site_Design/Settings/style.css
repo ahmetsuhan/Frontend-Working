@@ -1,0 +1,959 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /*Sayfa soldan sağa içerik alacak  */
+    direction: ltr;
+    /*Sayfada hiç bir zaman yatay bir kaydırma çubuğu çıkmasın */
+    overflow-x: hidden;
+    /*Dikey kaydırma çubuğu her zaman gözüksün */
+    overflow-y: scroll;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /*Tedbir amaçlı border kapama */
+    border: none;
+    /*Tedbir amaçlı anahat kapama */
+    outline: none;
+    background-color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    /*Gri renk */
+    color: #646464;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    body {
+        font-size: 13px;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+
+/*For S devices */
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+
+/*For XS devices */
+
+@media screen and (max-width:575px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+
+/* allPageArea*/
+
+#allPageArea {
+    position: relative;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+
+
+/*Header */
+
+#headerArea {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: 99;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: center;
+}
+
+#headerMessageArea {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: #353745;
+    /*vertical-align: top;*/
+    text-align: center;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    #headerMessageArea {
+        height: 161px;
+        min-height: 161px;
+        height: 161px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    #headerMessageArea {
+        height: 400px;
+        min-height: 400px;
+        height: 400px;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    #headerMessageArea {
+        height: 340px;
+        min-height: 340px;
+        height: 340px;
+    }
+}
+
+
+/*For S devices */
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    #headerMessageArea {
+        height: 203px;
+        min-height: 203px;
+        height: 203px;
+    }
+}
+
+
+/*For XS devices */
+
+@media screen and (max-width:575px) {
+    #headerMessageArea {
+        height: 150px;
+        min-height: 150px;
+        height: 150px;
+    }
+}
+
+#headerMessageArea img {
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    #headerMessageArea img#headerMessageImage2_1200x161 {
+        display: block;
+        width: 1200px;
+        min-width: 1200px;
+        max-width: 1200px;
+        height: 161px;
+        min-height: 161px;
+        max-height: 161px;
+    }
+    #headerMessageArea img#headerMessageImage_900x400 {
+        display: none;
+    }
+    #headerMessageArea img#headerMessageImage_400x340 {
+        display: none;
+    }
+    #headerMessageArea img#headerMEssageImage_400x203 {
+        display: none;
+    }
+    #headerMessageArea img#headerMessageImage_300x150 {
+        display: none;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    #headerMessageArea img#headerMessageImage2_1200x161 {
+        display: none;
+    }
+    #headerMessageArea img#headerMessageImage_900x400 {
+        display: block;
+        width: 900px;
+        min-width: 900px;
+        max-width: 900px;
+        height: 400px;
+        min-height: 400px;
+        max-height: 400px;
+    }
+    #headerMessageArea img#headerMessageImage_400x340 {
+        display: none;
+    }
+    #headerMessageArea img#headerMEssageImage_400x203 {
+        display: none;
+    }
+    #headerMessageArea img#headerMessageImage_300x150 {
+        display: none;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    #headerMessageArea img#headerMessageImage2_1200x161 {
+        display: none;
+    }
+    #headerMessageArea img#headerMessageImage_900x400 {
+        display: none;
+    }
+    #headerMessageArea img#headerMessageImage_400x340 {
+        display: block;
+        width: 400px;
+        min-width: 400px;
+        max-width: 400px;
+        height: 340px;
+        min-height: 340px;
+        max-height: 340px;
+    }
+    #headerMessageArea img#headerMEssageImage_400x203 {
+        display: none;
+    }
+    #headerMessageArea img#headerMessageImage_300x150 {
+        display: none;
+    }
+}
+
+
+/*For S devices */
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    #headerMessageArea img#headerMessageImage2_1200x161 {
+        display: none;
+    }
+    #headerMessageArea img#headerMessageImage_900x400 {
+        display: none;
+    }
+    #headerMessageArea img#headerMessageImage_400x340 {
+        display: none;
+    }
+    #headerMessageArea img#headerMEssageImage_400x203 {
+        display: block;
+        width: 400px;
+        min-width: 400px;
+        max-width: 400px;
+        height: 203px;
+        min-height: 203px;
+        max-height: 203px;
+    }
+    #headerMessageArea img#headerMessageImage_300x150 {
+        display: none;
+    }
+}
+
+
+/*For XS devices */
+
+@media screen and (max-width:575px) {
+    #headerMessageArea img#headerMessageImage2_1200x161 {
+        display: none;
+    }
+    #headerMessageArea img#headerMessageImage_900x400 {
+        display: none;
+    }
+    #headerMessageArea img#headerMessageImage_400x340 {
+        display: none;
+    }
+    #headerMessageArea img#headerMEssageImage_400x203 {
+        display: none;
+    }
+    #headerMessageArea img#headerMessageImage_300x150 {
+        display: block;
+        width: 300px;
+        min-width: 300px;
+        max-width: 300px;
+        height: 150px;
+        min-height: 150px;
+        max-height: 150px;
+    }
+}
+
+#headerMenuArea {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid #CCC;
+    outline: none;
+    /* vertical-align: top;*/
+    text-align: center;
+}
+
+#headerMenuTopArea {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    border-top: 2px solid #07B;
+    outline: none;
+    background-color: #0088CC;
+    /*vertical-align: top;*/
+    text-align: center;
+}
+
+#headerMenuTopLimitArea {
+    display: block;
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #0088CC;
+    /*vertical-align: middle;*/
+    text-align: center;
+}
+
+
+/*For XL device */
+
+@media screen and (min-width:1200px) {
+    #headerMenuTopLimitArea {
+        width: 1175px;
+        min-width: 1175px;
+        max-width: 1175px;
+    }
+}
+
+
+/*For All devices not include XL device*/
+
+@media screen and (max-width:1199px) {
+    #headerMenuTopLimitArea {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
+#headerMenuTopOptionsArea {
+    display: inline-block;
+    list-style: none;
+    float: right;
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-align: left;
+}
+
+.headerMenuOptions {
+    display: inline-block;
+    float: left;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 5px;
+    padding-right: 5px;
+    border: none;
+    outline: none;
+    font-family: Arial, "Helvatica Neue", Helvetica, sans-serif;
+    color: #fff;
+    font-size: 12px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: left;
+    text-decoration: none;
+}
+
+.headerMenuOptions a {
+    font-family: Arial, "Helvatica Neue", Helvetica, sans-serif;
+    color: #fff;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+    transition: all 0.3s ease 2ms;
+}
+
+.headerMenuOptions a:link,
+.headerMenuOptions a:active,
+.headerMenuOptions a:visited {
+    font-family: Arial, "Helvatica Neue", Helvetica, sans-serif;
+    color: #fff;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.headerMenuOptions a:hover {
+    font-family: Arial, "Helvatica Neue", Helvetica, sans-serif;
+    color: #ff0;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.headerMenuOptions i {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 2px;
+    border: none;
+    outline: none;
+}
+
+#headerMenuLimitArea {
+    display: block;
+    height: 32px;
+    min-height: 32px;
+    max-height: 32px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: center;
+    /*vertical-align: middle;*/
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    #headerMenuLimitArea {
+        width: 1175px;
+        min-width: 1175px;
+        max-width: 1175px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    #headerMenuLimitArea {
+        width: auto;
+        min-width: auto;
+        max-width: auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    #headerMenuLimitArea {
+        width: auto;
+        min-width: auto;
+        max-width: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+
+/*For S devices */
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    #headerMenuLimitArea {
+        width: auto;
+        min-width: auto;
+        max-width: auto;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+
+/*For XS devices */
+
+@media screen and (max-width:575px) {
+    #headerMenuLimitArea {
+        width: auto;
+        min-width: auto;
+        max-width: auto;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+#headerMenuLogoArea {
+    display: inline-block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    float: left;
+    /*yukarıda 32px vermiştik */
+    height: 32px;
+    min-height: 32px;
+    max-height: 32px;
+    margin: 0 auto;
+    padding: 0;
+    padding-left: 5px;
+    border: none;
+    outline: none;
+    vertical-align: middle;
+    text-align: left;
+}
+
+#headerMenuLogoArea img {
+    display: block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    float: left;
+    /*resim boyutum 32x32 */
+    height: 32px;
+    min-height: 32px;
+    max-height: 32px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#headerMenuNavArea {
+    display: inline-block;
+    float: right;
+    width: -webkit-calc(100%-235px);
+    width: -moz-calc(100%-235px);
+    width: -o-calc(100%-235px);
+    width: -ms-calc(100%-235px);
+    width: calc(100%-235px);
+    min-width: -webkit-calc(100%-235px);
+    min-width: -moz-calc(100%-235px);
+    min-width: -o-calc(100%-235px);
+    min-width: -ms-calc(100%-235px);
+    min-width: calc(100%-235px);
+    max-width: -webkit-calc(100%-235px);
+    max-width: -moz-calc(100%-235px);
+    max-width: -o-calc(100%-235px);
+    max-width: -ms-calc(100%-235px);
+    max-width: calc(100%-235px);
+    /*logo yüksekliği kadar yükseklik veriyorum */
+    height: 32px;
+    min-height: 32px;
+    max-height: 32px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    vertical-align: middle;
+    text-align: right;
+}
+
+#headerMenuNav {
+    float: right;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 32px;
+    min-height: 32px;
+    max-height: 32px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    vertical-align: middle;
+    text-align: left;
+}
+
+
+/*For XL, L, M devices */
+
+@media screen and (min-width:768) {
+    #headerMenuNav {
+        display: block;
+    }
+}
+
+
+/*For S and XS devices */
+
+@media screen and (max-width:767px) {
+    #headerMenuNav {
+        display: none;
+    }
+}
+
+#headerMenuNavOptionArea {
+    display: inline-block;
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-align: left;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    #headerMenuNavOptionArea {
+        padding-top: 8px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    #headerMenuNavOptionArea {
+        padding-top: 9px;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    #headerMenuNavOptionArea {
+        padding-top: 10px;
+    }
+}
+
+.headerMenuNavOptions {
+    display: inline-block;
+    float: left;
+    margin: 0 auto;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-family: Arial, "Helvatica Neue", Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .headerMenuNavOptions {
+        font-size: 14px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .headerMenuNavOptions {
+        font-size: 13px;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .headerMenuNavOptions {
+        font-size: 12px;
+    }
+}
+
+.headerMenuNavOptions a {
+    font-family: Arial, "Helvatica Neue", Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+    transition: all 0.3s ease 2ms;
+}
+
+.headerMenuNavOptions a:link,
+.headerMenuNavOptions a:active,
+.headerMenuNavOptions a:visited {
+    font-family: Arial, "Helvatica Neue", Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+}
+
+.headerMenuNavOptions a:hover {
+    font-family: Arial, "Helvatica Neue", Helvetica, sans-serif;
+    color: #000;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+}
+
+#headerMenuOpenButtonArea {
+    float: right;
+    width: 26px;
+    min-width: 26px;
+    max-width: 26px;
+    height: 26px;
+    min-height: 26px;
+    max-height: 26px;
+    margin: 0;
+    padding: 0;
+    padding-top: 3px;
+    padding-right: 5px;
+    border: none;
+    outline: none;
+    vertical-align: middle;
+    text-align: right;
+    cursor: pointer;
+}
+
+
+/*For XL, L and M devices */
+
+@media screen and (min-width:768px) {
+    #headerMenuOpenButtonArea {
+        display: none;
+    }
+}
+
+#headerMenuOpenButtonArea img {
+    display: block;
+    width: 26px;
+    min-width: 26px;
+    max-width: 26px;
+    height: 26px;
+    min-height: 26px;
+    max-height: 26px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#headerMenuOpenButtonMenuLimitArea {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #3d3d3d;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/*For XL, L and M devices */
+
+@media screen and (min-width:768px) {
+    #headerMenuOpenButtonMenuLimitArea {
+        display: none;
+    }
+}
+
+@media screen and (max-width:767px) {
+    #headerMenuOpenButtonMenuLimitArea {
+        display: block;
+    }
+}
+
+#headerMenuOpenButtonMenu {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #3d3d3d;
+    text-align: center;
+    /*vertical-align: top;*/
+}
+
+#headerMenuOpenButtonMenuOptionsArea {
+    display: block;
+    float: left;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.headerMenuOpenButtonMenuOptions {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 20px;
+    min-height: 20px;
+    max-height: 20px;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 4px;
+    padding-left: 5px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    font-family: Arial, "Helvatica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.headerMenuOpenButtonMenuOptions a {
+    font-family: Arial, "Helvatica Neue", Helvetica, sans-serif;
+    color: #fff;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease 2ms;
+}
+
+.headerMenuOpenButtonMenuOptions a:link,
+.headerMenuOpenButtonMenuOptions a:active,
+.headerMenuOpenButtonMenuOptions a:visited {
+    font-family: Arial, "Helvatica Neue", Helvetica, sans-serif;
+    color: #fff;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+}
+
+.headerMenuOpenButtonMenuOptions a:hover {
+    font-family: Arial, "Helvatica Neue", Helvetica, sans-serif;
+    color: #000;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/*Main */
+
+main {
+    position: relative;
+    display: block;
+    z-index: 98;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    left: 0;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    vertical-align: top;
+    text-align: center;
+}
