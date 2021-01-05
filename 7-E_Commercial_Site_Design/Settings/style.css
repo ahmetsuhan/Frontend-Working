@@ -957,3 +957,1037 @@ main {
     vertical-align: top;
     text-align: center;
 }
+
+
+/*Footer */
+
+footer {
+    position: relative;
+    display: block;
+    z-index: 98;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    left: 0;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    vertical-align: top;
+    text-align: center;
+}
+
+#footerMenusArea {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-top: 1px solid #ccc;
+    outline: none;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#footerMenusLimitArea {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #f9f9f9;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    #footerMenusLimitArea {
+        width: 1175px;
+        min-width: 1175px;
+        max-width: 1175px;
+    }
+}
+
+
+/*For L, M, S and XS devices */
+
+@media screen and (max-width:1199px) {
+    #footerMenusLimitArea {
+        width: 100%;
+        min-width: 100;
+        max-width: 100;
+    }
+}
+
+.footerMenusColumnArea {
+    display: inline-block;
+    float: left;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .footerMenusColumnArea {
+        width: 25%;
+        min-width: 25%;
+        max-width: 25%;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .footerMenusColumnArea {
+        width: 25%;
+        min-width: 25%;
+        max-width: 25%;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .footerMenusColumnArea {
+        width: 25%;
+        min-width: 25%;
+        max-width: 25%;
+    }
+}
+
+
+/*For S devices */
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .footerMenusColumnArea {
+        width: 50%;
+        min-width: 50%;
+        max-width: 50%;
+    }
+}
+
+
+/*For XS devices */
+
+@media screen and (max-width:575px) {
+    .footerMenusColumnArea {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
+.footerMenusColumnHeaderArea {
+    display: block;
+    width: -webkit-calc(100%-10px);
+    width: -moz-calc(100%-10px);
+    width: -ms-calc(100%-10px);
+    width: -o-calc(100%-10px);
+    width: calc(100%-10px);
+    min-width: -webkit-calc(100%-10px);
+    min-width: -moz-calc(100%-10px);
+    min-width: -ms-calc(100%-10px);
+    min-width: -o-calc(100%-10px);
+    min-width: calc(100%-10px);
+    max-width: -webkit-calc(100%-10px);
+    max-width: -moz-calc(100%-10px);
+    max-width: -ms-calc(100%-10px);
+    max-width: -o-calc(100%-10px);
+    max-width: calc(100%-10px);
+    height: auto;
+    margin: 0 auto;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 0;
+    padding-bottom: 5px;
+    overflow: hidden;
+    border: none;
+    border-bottom: 1px dashed #000;
+    outline: none;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #000;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .footerMenusColumnHeaderArea {
+        font-size: 14px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .footerMenusColumnHeaderArea {
+        font-size: 13px;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .footerMenusColumnHeaderArea {
+        font-size: 13px;
+    }
+}
+
+
+/*For S devices */
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .footerMenusColumnHeaderArea {
+        font-size: 12px;
+    }
+}
+
+
+/*For XS devices */
+
+@media screen and (max-width:575px) {
+    .footerMenusColumnHeaderArea {
+        font-size: 12px;
+    }
+}
+
+.footerMenusColumnMenusArea {
+    display: block;
+    width: -webkit-calc(100%-10px);
+    width: -moz-calc(100%-10px);
+    width: -ms-calc(100%-10px);
+    width: -o-calc(100%-10px);
+    width: calc(100%-10px);
+    min-width: -webkit-calc(100%-10px);
+    min-width: -moz-calc(100%-10px);
+    min-width: -ms-calc(100%-10px);
+    min-width: -o-calc(100%-10px);
+    min-width: calc(100%-10px);
+    max-width: -webkit-calc(100%-10px);
+    max-width: -moz-calc(100%-10px);
+    max-width: -ms-calc(100%-10px);
+    max-width: -o-calc(100%-10px);
+    max-width: calc(100%-10px);
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .footerMenusColumnMenusArea {
+        font-size: 14px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .footerMenusColumnMenusArea {
+        font-size: 13px;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .footerMenusColumnMenusArea {
+        font-size: 13px;
+    }
+}
+
+
+/*For S devices */
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .footerMenusColumnMenusArea {
+        font-size: 12px;
+    }
+}
+
+
+/*For XS devices */
+
+@media screen and (max-width:575px) {
+    .footerMenusColumnMenusArea {
+        font-size: 12px;
+    }
+}
+
+.footerMenusColumnMenusArea a {
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+    transition: all 0.3s ease 2ms;
+}
+
+.footerMenusColumnMenusArea a:link,
+.footerMenusColumnMenusArea a:active,
+.footerMenusColumnMenusArea a:visited {
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.footerMenusColumnMenusArea a:hover {
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #000;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: underline;
+    transition: all 0.3s ease 2ms;
+}
+
+.footerMenusColumnMenusArea i {
+    display: inline-block;
+    float: left;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    padding-right: 5px;
+    border: none;
+    outline: none;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .footerMenusColumnMenusArea i {
+        padding-top: 2px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .footerMenusColumnMenusArea i {
+        padding-top: 2px;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .footerMenusColumnMenusArea i {
+        padding-top: 1px;
+    }
+}
+
+
+/*For S devices */
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .footerMenusColumnMenusArea i {
+        padding-top: 1px;
+    }
+}
+
+
+/*For XS devices */
+
+@media screen and (max-width:575px) {
+    .footerMenusColumnMenusArea i {
+        padding-top: 1px;
+    }
+}
+
+#footerBottomTextArea {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: center;
+}
+
+#footerBottomTextLimitArea {
+    display: block;
+    width: -webkit-calc(100%-10px);
+    width: -moz-calc(100%-10px);
+    width: -ms-calc(100%-10px);
+    width: -o-calc(100%-10px);
+    width: calc(100%-10px);
+    min-width: -webkit-calc(100%-10px);
+    min-width: -moz-calc(100%-10px);
+    min-width: -ms-calc(100%-10px);
+    min-width: -o-calc(100%-10px);
+    min-width: calc(100%-10px);
+    max-width: -webkit-calc(100%-10px);
+    max-width: -moz-calc(100%-10px);
+    max-width: -ms-calc(100%-10px);
+    max-width: -o-calc(100%-10px);
+    max-width: calc(100%-10px);
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    padding-right: 5px;
+    padding-left: 5px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    #footerBottomTextLimitArea {
+        font-size: 14px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    #footerBottomTextLimitArea {
+        font-size: 13px;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    #footerBottomTextLimitArea {
+        font-size: 13px;
+    }
+}
+
+
+/*For S devices */
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    #footerBottomTextLimitArea {
+        font-size: 12px;
+    }
+}
+
+
+/*For XS devices */
+
+@media screen and (max-width:575px) {
+    #footerBottomTextLimitArea {
+        font-size: 12px;
+    }
+}
+
+#footerBottomLogoArea {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 5px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: center;
+    line-height: 100%;
+}
+
+#footerBottomLogoLimitArea {
+    display: block;
+    width: -webkit-calc(100%-10px);
+    width: -moz-calc(100%-10px);
+    width: -ms-calc(100%-10px);
+    width: -o-calc(100%-10px);
+    width: calc(100%-10px);
+    min-width: -webkit-calc(100%-10px);
+    min-width: -moz-calc(100%-10px);
+    min-width: -ms-calc(100%-10px);
+    min-width: -o-calc(100%-10px);
+    min-width: calc(100%-10px);
+    max-width: -webkit-calc(100%-10px);
+    max-width: -moz-calc(100%-10px);
+    max-width: -ms-calc(100%-10px);
+    max-width: -o-calc(100%-10px);
+    max-width: calc(100%-10px);
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    padding-right: 5px;
+    padding-left: 5px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#footerBottomRapidSslLogoArea {
+    display: inline-block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#footerBottomRapidSslLogoArea img {
+    display: block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#footerBottomSecurityPaymentLogoArea {
+    display: inline-block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#footerBottomSecurityPaymentLogoArea img {
+    display: block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#footerBottom3DSecureLogoArea {
+    display: inline-block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#footerBottom3DSecureLogoArea img {
+    display: block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#footerBottomGarantiBankLogoArea {
+    display: inline-block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#footerBottomGarantiBankLogoArea img {
+    display: block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#footerBottomMaximumCardLogoArea {
+    display: inline-block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#footerBottomMaximumCardLogoArea img {
+    display: block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#footerBottomWorldCardLogoArea {
+    display: inline-block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#footerBottomWorldCardLogoArea img {
+    display: block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#footerBottomCardFinansLogoArea {
+    display: inline-block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#footerBottomCardFinansLogoArea img {
+    display: block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#footerBottomAxessCardLogoArea {
+    display: inline-block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#footerBottomAxessCardLogoArea img {
+    display: block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#footerBottomParafCardLogoArea {
+    display: inline-block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#footerBottomParafCardLogoArea img {
+    display: block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#footerBottomVisaCardLogoArea {
+    display: inline-block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#footerBottomVisaCardLogoArea img {
+    display: block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#footerBottomMasterCardLogoArea {
+    display: inline-block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#footerBottomMasterCardLogoArea img {
+    display: block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#footerBottomAmericanExpressCardLogoArea {
+    display: inline-block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#footerBottomAmericanExpressCardLogoArea img {
+    display: block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#footerBottomTurkTelekomLogoArea {
+    display: inline-block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#footerBottomTurkTelekomLogoArea img {
+    display: block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#footerBottomTurkcellLogoArea {
+    display: inline-block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#footerBottomTurkcellLogoArea img {
+    display: block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#footerBottomVodofoneLogoArea {
+    display: inline-block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#footerBottomVodofoneLogoArea img {
+    display: block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#footerBottomWireCardLogoArea {
+    display: inline-block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#footerBottomWireCardLogoArea img {
+    display: block;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
