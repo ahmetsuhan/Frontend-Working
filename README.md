@@ -9,4 +9,4 @@ DESCRIPTION FOR FOLDER NAME:
 
 3-Freelancer --> Imitation of Bootstrap example page fully using Bootstrap.
 
-4-)E_Commercial_Site_Design --> Fully Responsive E-Commercial design that created by using JS, CSS, HTML.
+4-)E_Commercial_Site_Design --> Fully Responsive E-Commercial Site design that created by using JS, CSS, HTML.
