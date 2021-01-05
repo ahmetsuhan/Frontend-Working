@@ -1,4 +1,4 @@
-This project is fully responsive and made with just using HTML5 and CSS.
+This project is fully responsive and made with just using HTML5, CSS and Javascript(Js).
 
 
 /* *//////////////////
