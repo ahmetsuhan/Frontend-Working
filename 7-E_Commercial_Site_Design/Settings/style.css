@@ -477,6 +477,7 @@ body {
 }
 
 #headerMenuLimitArea {
+    position: relative;
     display: block;
     height: 32px;
     min-height: 32px;
@@ -594,21 +595,21 @@ body {
 #headerMenuNavArea {
     display: inline-block;
     float: right;
-    width: -webkit-calc(100%-235px);
-    width: -moz-calc(100%-235px);
-    width: -o-calc(100%-235px);
-    width: -ms-calc(100%-235px);
-    width: calc(100%-235px);
-    min-width: -webkit-calc(100%-235px);
-    min-width: -moz-calc(100%-235px);
-    min-width: -o-calc(100%-235px);
-    min-width: -ms-calc(100%-235px);
-    min-width: calc(100%-235px);
-    max-width: -webkit-calc(100%-235px);
-    max-width: -moz-calc(100%-235px);
-    max-width: -o-calc(100%-235px);
-    max-width: -ms-calc(100%-235px);
-    max-width: calc(100%-235px);
+    width: -webkit-calc(100% - 235px);
+    width: -moz-calc(100% - 235px);
+    width: -o-calc(100% - 235px);
+    width: -ms-calc(100% - 235px);
+    width: calc(100% - 235px);
+    min-width: -webkit-calc(100% - 235px);
+    min-width: -moz-calc(100% - 235px);
+    min-width: -o-calc(100% - 235px);
+    min-width: -ms-calc(100% - 235px);
+    min-width: calc(100% - 235px);
+    max-width: -webkit-calc(100% - 235px);
+    max-width: -moz-calc(100% - 235px);
+    max-width: -o-calc(100% - 235px);
+    max-width: -ms-calc(100% - 235px);
+    max-width: calc(100% - 235px);
     /*logo yüksekliği kadar yükseklik veriyorum */
     height: 32px;
     min-height: 32px;
@@ -774,7 +775,9 @@ body {
 }
 
 #headerMenuOpenButtonArea {
-    float: right;
+    position: absolute;
+    top: 8px;
+    right: 5px;
     width: 26px;
     min-width: 26px;
     max-width: 26px;
@@ -783,8 +786,6 @@ body {
     max-height: 26px;
     margin: 0;
     padding: 0;
-    padding-top: 3px;
-    padding-right: 5px;
     border: none;
     outline: none;
     vertical-align: middle;
@@ -1086,6 +1087,9 @@ footer {
         min-width: 50%;
         max-width: 50%;
     }
+    .footerMenusColumnClearArea {
+        clear: both;
+    }
 }
 
 
@@ -1101,21 +1105,21 @@ footer {
 
 .footerMenusColumnHeaderArea {
     display: block;
-    width: -webkit-calc(100%-10px);
-    width: -moz-calc(100%-10px);
-    width: -ms-calc(100%-10px);
-    width: -o-calc(100%-10px);
-    width: calc(100%-10px);
-    min-width: -webkit-calc(100%-10px);
-    min-width: -moz-calc(100%-10px);
-    min-width: -ms-calc(100%-10px);
-    min-width: -o-calc(100%-10px);
-    min-width: calc(100%-10px);
-    max-width: -webkit-calc(100%-10px);
-    max-width: -moz-calc(100%-10px);
-    max-width: -ms-calc(100%-10px);
-    max-width: -o-calc(100%-10px);
-    max-width: calc(100%-10px);
+    width: -webkit-calc(100% - 10px);
+    width: -moz-calc(100% - 10px);
+    width: -ms-calc(100% - 10px);
+    width: -o-calc(100% - 10px);
+    width: calc(100% - 10px);
+    min-width: -webkit-calc(100% - 10px);
+    min-width: -moz-calc(100% - 10px);
+    min-width: -ms-calc(100% - 10px);
+    min-width: -o-calc(100% - 10px);
+    min-width: calc(100% - 10px);
+    max-width: -webkit-calc(100% - 10px);
+    max-width: -moz-calc(100% - 10px);
+    max-width: -ms-calc(100% - 10px);
+    max-width: -o-calc(100% - 10px);
+    max-width: calc(100% - 10px);
     height: auto;
     margin: 0 auto;
     margin-right: 10px;
@@ -1184,21 +1188,21 @@ footer {
 
 .footerMenusColumnMenusArea {
     display: block;
-    width: -webkit-calc(100%-10px);
-    width: -moz-calc(100%-10px);
-    width: -ms-calc(100%-10px);
-    width: -o-calc(100%-10px);
-    width: calc(100%-10px);
-    min-width: -webkit-calc(100%-10px);
-    min-width: -moz-calc(100%-10px);
-    min-width: -ms-calc(100%-10px);
-    min-width: -o-calc(100%-10px);
-    min-width: calc(100%-10px);
-    max-width: -webkit-calc(100%-10px);
-    max-width: -moz-calc(100%-10px);
-    max-width: -ms-calc(100%-10px);
-    max-width: -o-calc(100%-10px);
-    max-width: calc(100%-10px);
+    width: -webkit-calc(100% - 10px);
+    width: -moz-calc(100% - 10px);
+    width: -ms-calc(100% - 10px);
+    width: -o-calc(100% - 10px);
+    width: calc(100% - 10px);
+    min-width: -webkit-calc(100% - 10px);
+    min-width: -moz-calc(100% - 10px);
+    min-width: -ms-calc(100% - 10px);
+    min-width: -o-calc(100% - 10px);
+    min-width: calc(100% - 10px);
+    max-width: -webkit-calc(100% - 10px);
+    max-width: -moz-calc(100% - 10px);
+    max-width: -ms-calc(100% - 10px);
+    max-width: -o-calc(100% - 10px);
+    max-width: calc(100% - 10px);
     height: auto;
     margin: 0 auto;
     padding: 0;
@@ -1371,21 +1375,21 @@ footer {
 
 #footerBottomTextLimitArea {
     display: block;
-    width: -webkit-calc(100%-10px);
-    width: -moz-calc(100%-10px);
-    width: -ms-calc(100%-10px);
-    width: -o-calc(100%-10px);
-    width: calc(100%-10px);
-    min-width: -webkit-calc(100%-10px);
-    min-width: -moz-calc(100%-10px);
-    min-width: -ms-calc(100%-10px);
-    min-width: -o-calc(100%-10px);
-    min-width: calc(100%-10px);
-    max-width: -webkit-calc(100%-10px);
-    max-width: -moz-calc(100%-10px);
-    max-width: -ms-calc(100%-10px);
-    max-width: -o-calc(100%-10px);
-    max-width: calc(100%-10px);
+    width: -webkit-calc(100% - 10px);
+    width: -moz-calc(100% - 10px);
+    width: -ms-calc(100% - 10px);
+    width: -o-calc(100% - 10px);
+    width: calc(100% - 10px);
+    min-width: -webkit-calc(100% - 10px);
+    min-width: -moz-calc(100% - 10px);
+    min-width: -ms-calc(100% - 10px);
+    min-width: -o-calc(100% - 10px);
+    min-width: calc(100% - 10px);
+    max-width: -webkit-calc(100% - 10px);
+    max-width: -moz-calc(100% - 10px);
+    max-width: -ms-calc(100% - 10px);
+    max-width: -o-calc(100% - 10px);
+    max-width: calc(100% - 10px);
     height: auto;
     margin: 0 auto;
     padding: 0;
@@ -1468,21 +1472,21 @@ footer {
 
 #footerBottomLogoLimitArea {
     display: block;
-    width: -webkit-calc(100%-10px);
-    width: -moz-calc(100%-10px);
-    width: -ms-calc(100%-10px);
-    width: -o-calc(100%-10px);
-    width: calc(100%-10px);
-    min-width: -webkit-calc(100%-10px);
-    min-width: -moz-calc(100%-10px);
-    min-width: -ms-calc(100%-10px);
-    min-width: -o-calc(100%-10px);
-    min-width: calc(100%-10px);
-    max-width: -webkit-calc(100%-10px);
-    max-width: -moz-calc(100%-10px);
-    max-width: -ms-calc(100%-10px);
-    max-width: -o-calc(100%-10px);
-    max-width: calc(100%-10px);
+    width: -webkit-calc(100% - 10px);
+    width: -moz-calc(100% - 10px);
+    width: -ms-calc(100% - 10px);
+    width: -o-calc(100% - 10px);
+    width: calc(100% - 10px);
+    min-width: -webkit-calc(100% - 10px);
+    min-width: -moz-calc(100% - 10px);
+    min-width: -ms-calc(100% - 10px);
+    min-width: -o-calc(100% - 10px);
+    min-width: calc(100% - 10px);
+    max-width: -webkit-calc(100% - 10px);
+    max-width: -moz-calc(100% - 10px);
+    max-width: -ms-calc(100% - 10px);
+    max-width: -o-calc(100% - 10px);
+    max-width: calc(100% - 10px);
     height: auto;
     margin: 0 auto;
     padding: 0;
@@ -1990,4 +1994,495 @@ footer {
     padding: 0;
     border: none;
     outline: none;
+}
+
+
+/*Main */
+
+#resultPagesArea {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: #eee;
+    vertical-align: top;
+    text-align: center;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    #resultPagesArea {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+
+/*For L, M, S, XS devices */
+
+@media screen and (max-width:1199px) {
+    #resultPagesArea {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+#resultPagesLimitArea {
+    position: relative;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    border: 1px solid #ddd;
+    outline: none;
+    overflow: hidden;
+    background-color: #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    #resultPagesLimitArea {
+        width: -webkit-calc(1175px - 12px);
+        width: -o-calc(1175px - 12px);
+        width: -moz-calc(1175px - 12px);
+        width: -ms-calc(1175px - 12px);
+        width: calc(1175px - 12px);
+        min-width: -webkit-calc(1175px - 12px);
+        min-width: -o-calc(1175px - 12px);
+        min-width: -moz-calc(1175px - 12px);
+        min-width: -ms-calc(1175px - 12px);
+        min-width: calc(1175px - 12px);
+        max-width: -webkit-calc(1175px - 12px);
+        max-width: -o-calc(1175px - 12px);
+        max-width: -moz-calc(1175px - 12px);
+        max-width: -ms-calc(1175px - 12px);
+        max-width: calc(1175px - 12px);
+    }
+}
+
+
+/*For L, M, S, XS devices */
+
+@media screen and (max-width:1199px) {
+    #resultPagesLimitArea {
+        width: -webkit-calc(100% - 12px);
+        width: -o-calc(100% - 12px);
+        width: -moz-calc(100% - 12px);
+        width: -ms-calc(100% - 12px);
+        width: calc(100% - 12px);
+        min-width: -webkit-calc(100% - 12px);
+        min-width: -o-calc(100% - 12px);
+        min-width: -moz-calc(100% - 12px);
+        min-width: -ms-calc(100% - 12px);
+        min-width: calc(100% - 12px);
+        max-width: -webkit-calc(100% - 12px);
+        max-width: -o-calc(100% - 12px);
+        max-width: -moz-calc(100% - 12px);
+        max-width: -ms-calc(100% - 12px);
+        max-width: calc(100% - 12px);
+    }
+}
+
+#resultPagesInfoArea {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: center;
+    vertical-align: top;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    #resultPagesInfoArea {
+        width: -webkit-calc(100% - 40px);
+        width: -o-calc(100% - 40px);
+        width: -moz-calc(100% - 40px);
+        width: -ms-calc(100% - 40px);
+        width: calc(100% - 40px);
+        min-width: -webkit-calc(100% - 40px);
+        min-width: -o-calc(100% - 40px);
+        min-width: -moz-calc(100% - 40px);
+        min-width: -ms-calc(100% - 40px);
+        min-width: calc(100% - 40px);
+        max-width: -webkit-calc(100% - 40px);
+        max-width: -o-calc(100% - 40px);
+        max-width: -moz-calc(100% - 40px);
+        max-width: -ms-calc(100% - 40px);
+        max-width: calc(100% - 40px);
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    #resultPagesInfoArea {
+        width: -webkit-calc(100% - 36px);
+        width: -o-calc(100% - 36px);
+        width: -moz-calc(100% - 36px);
+        width: -ms-calc(100% - 36px);
+        width: calc(100% - 36px);
+        min-width: -webkit-calc(100% - 36px);
+        min-width: -o-calc(100% - 36px);
+        min-width: -moz-calc(100% - 36px);
+        min-width: -ms-calc(100% - 36px);
+        min-width: calc(100% - 36px);
+        max-width: -webkit-calc(100% - 36px);
+        max-width: -o-calc(100% - 36px);
+        max-width: -moz-calc(100% - 36px);
+        max-width: -ms-calc(100% - 36px);
+        max-width: calc(100% - 36px);
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    #resultPagesInfoArea {
+        width: -webkit-calc(100% - 32px);
+        width: -o-calc(100% - 32px);
+        width: -moz-calc(100% - 32px);
+        width: -ms-calc(100% - 32px);
+        width: calc(100% - 32px);
+        min-width: -webkit-calc(100% - 32px);
+        min-width: -o-calc(100% - 32px);
+        min-width: -moz-calc(100% - 32px);
+        min-width: -ms-calc(100% - 32px);
+        min-width: calc(100% - 32px);
+        max-width: -webkit-calc(100% - 32px);
+        max-width: -o-calc(100% - 32px);
+        max-width: -moz-calc(100% - 32px);
+        max-width: -ms-calc(100% - 32px);
+        max-width: calc(100% - 32px);
+    }
+}
+
+
+/*For S devices */
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    #resultPagesInfoArea {
+        width: -webkit-calc(100% - 28px);
+        width: -o-calc(100% - 28px);
+        width: -moz-calc(100% - 28px);
+        width: -ms-calc(100% - 28px);
+        width: calc(100% - 28px);
+        min-width: -webkit-calc(100% - 28px);
+        min-width: -o-calc(100% - 28px);
+        min-width: -moz-calc(100% - 28px);
+        min-width: -ms-calc(100% - 28px);
+        min-width: calc(100% - 28px);
+        max-width: -webkit-calc(100% - 28px);
+        max-width: -o-calc(100% - 28px);
+        max-width: -moz-calc(100% - 28px);
+        max-width: -ms-calc(100% - 28px);
+        max-width: calc(100% - 28px);
+    }
+}
+
+
+/*For XS devices */
+
+@media screen and (max-width:575px) {
+    #resultPagesInfoArea {
+        width: -webkit-calc(100% - 24px);
+        width: -o-calc(100% - 24px);
+        width: -moz-calc(100% - 24px);
+        width: -ms-calc(100% - 24px);
+        width: calc(100% - 24px);
+        min-width: -webkit-calc(100% - 24px);
+        min-width: -o-calc(100% - 24px);
+        min-width: -moz-calc(100% - 24px);
+        min-width: -ms-calc(100% - 24px);
+        min-width: calc(100% - 24px);
+        max-width: -webkit-calc(100% - 24px);
+        max-width: -o-calc(100% - 24px);
+        max-width: -moz-calc(100% - 24px);
+        max-width: -ms-calc(100% - 24px);
+        max-width: calc(100% - 24px);
+    }
+}
+
+#resultPagesOperationIconArea {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    /*ok iconum 128x128*/
+    /*
+    height:128px;
+    min-height: 128px;
+    max-height: 128px;*/
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    #resultPagesOperationIconArea {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    #resultPagesOperationIconArea {
+        margin-top: 35px;
+        margin-bottom: 18px;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    #resultPagesOperationIconArea {
+        margin-top: 30px;
+        margin-bottom: 16px;
+    }
+}
+
+
+/*For S devices */
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    #resultPagesOperationIconArea {
+        margin-top: 30px;
+        margin-bottom: 14px;
+    }
+}
+
+
+/*For XS devices */
+
+@media screen and (max-width:575px) {
+    #resultPagesOperationIconArea {
+        margin-top: 25px;
+        margin-bottom: 12px;
+    }
+}
+
+#resultPagesOperationIconArea img {
+    display: block;
+    /*image size: 128x128 px*/
+    width: 128px;
+    min-width: 128px;
+    max-width: 128px;
+    height: 128px;
+    min-height: 128px;
+    max-height: 128px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#resultPagesHeaderArea {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 120%;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    #resultPagesHeaderArea {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    #resultPagesHeaderArea {
+        font-size: 13px;
+        margin-bottom: 18px;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    #resultPagesHeaderArea {
+        font-size: 12px;
+        margin-bottom: 16px;
+    }
+}
+
+
+/*For S devices */
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    #resultPagesHeaderArea {
+        font-size: 12px;
+        margin-bottom: 14px;
+    }
+}
+
+
+/*For XS devices */
+
+@media screen and (max-width:575px) {
+    #resultPagesHeaderArea {
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+}
+
+#resultPagesContentArea {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 120%;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    #resultPagesContentArea {
+        font-size: 14px;
+        margin-bottom: 45px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    #resultPagesContentArea {
+        font-size: 13px;
+        margin-bottom: 40px;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    #resultPagesContentArea {
+        font-size: 12px;
+        margin-bottom: 35px;
+    }
+}
+
+
+/*For S devices */
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    #resultPagesContentArea {
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+}
+
+
+/*For XS devices */
+
+@media screen and (max-width:575px) {
+    #resultPagesContentArea {
+        font-size: 12px;
+        margin-bottom: 25px;
+    }
+}
+
+#resultPagesContentArea a {
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease 2ms;
+}
+
+#resultPagesContentArea a:link,
+#resultPagesContentArea a:active,
+#resultPagesContentArea a:visited {
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#resultPagesContentArea a:hover {
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #000;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    text-decoration: underline;
 }
