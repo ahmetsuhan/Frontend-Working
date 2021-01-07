@@ -479,12 +479,15 @@
                 e.preventDefault();
             }
 
-            //Delete All Comments
+         //Delete All Comments
             function DeleteAllComments(e) {
-                let arr = document.querySelectorAll("#commentLimitArea .comments");
-                for (let i = 0; i < arr.length; i++) {
-                    arr[i].remove();
+                if (confirm("Silmek istediğinize Emin misiniz?")) {
+                    let arr = document.querySelectorAll("#commentLimitArea .comments");
+                    for (let i = 0; i < arr.length; i++) {
+                        arr[i].remove();
+                    }
                 }
+
                 e.preventDefault();
             }
             /* For Comment Section <<<<<<<*/
