@@ -219,10 +219,17 @@
 
                     <li class="comments">
                         <div class="commentsInfo">
-                            <p class="commentsText">asdasdasdasda</p>
+                            <p class="commentsText">a</p>
                         </div>
                         <button class="btnCommentDelete">&times</button>
                     </li>
+                    <li class="comments">
+                        <div class="commentsInfo">
+                            <p class="commentsText">as</p>
+                        </div>
+                        <button class="btnCommentDelete">&times</button>
+                    </li>
+
                     <li id="writeNewComment">
                         <form>
                             <textarea rows="5" cols="30" placeholder="Please add your comment here" name="comments"></textarea>
@@ -433,6 +440,9 @@
 
                 //delete All comments
                 btnDeleteAll.click(DeleteAllComments);
+
+
+
             }
             //AddNewComment
             function AddNewComment(e) {
@@ -465,8 +475,12 @@
 
                     //clearTextarea
                     textArea.val("");
+
+                    //save Comment to session Storage
+                    AddCommenToSessionStorage();
                     e.preventDefault();
                 }
+
 
 
             }
@@ -479,16 +493,37 @@
                 e.preventDefault();
             }
 
-         //Delete All Comments
+            //Delete All Comments
             function DeleteAllComments(e) {
                 if (confirm("Silmek istediğinize Emin misiniz?")) {
                     let arr = document.querySelectorAll("#commentLimitArea .comments");
                     for (let i = 0; i < arr.length; i++) {
                         arr[i].remove();
                     }
+                    DeleteAllCommentToSessionStorage();
                 }
 
                 e.preventDefault();
+            }
+
+            function AddCommenToSessionStorage() {
+                //working with sessionStorage
+                let storage = [];
+                let allComments = $(".commentsText");
+
+                for (let i = 0; i < allComments.length; i++) {
+                    storage.push(allComments[i].innerText);
+                    sessionStorage.setItem(`Comment ${i}`, storage[i].toString());
+                }
+            }
+
+
+            function DeleteAllCommentToSessionStorage() {
+                sessionStorage.clear();
+            }
+
+            function DeleteCommentToSessionStorage() {
+                //write code here
             }
             /* For Comment Section <<<<<<<*/
 
