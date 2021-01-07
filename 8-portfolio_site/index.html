@@ -49,9 +49,11 @@
 <body>
     <a href="#top"></a>
     <div id="allPage">
+
         <div id="returnTop">
             <a href="#top"><i class="fas fa-arrow-circle-up fa-3x"></i></a>
         </div>
+
         <header>
             <div id="position-fixed-cont">
                 <div id="headerMenuNavArea">
@@ -209,12 +211,36 @@
             </article>
         </main>
 
+
+        <section id="commentSection">
+
+            <div id="commentArea">
+                <ul id="commentLimitArea">
+
+                    <li class="comments">
+                        <div class="commentsInfo">
+                            <p class="commentsText">asdasdasdasda</p>
+                        </div>
+                        <button class="btnCommentDelete">&times</button>
+                    </li>
+                    <li id="writeNewComment">
+                        <form>
+                            <textarea rows="5" cols="30" placeholder="Please add your comment here" name="comments"></textarea>
+                            <div id="commentBtnGroup">
+                                <button type="submit" id="btnDeleteAll">Hepsini Sil</button>
+                                <button id="btnAddComment" type="submit">Gönder</button>
+                            </div>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+
         <footer>
             <div id="copyright">
                 Copyright &copy; 2020 - 2030 coderbite.tech All Rights Reserved.
             </div>
-
-
         </footer>
     </div>
 
@@ -389,7 +415,79 @@
             /*For slider <<<<<<<< */
 
 
+            /* For Comment Section >>>>>>>>*/
 
+            const btnSendComment = $("#btnAddComment");
+            const textArea = $("#writeNewComment form textarea");
+            const btnDeleteAll = $("#btnDeleteAll");
+            const commentLimitArea = $("#commentLimitArea");
+
+            EventListeners();
+
+            function EventListeners() {
+                //add new Comment
+                btnSendComment.click(AddNewComment);
+
+                //delete a comment
+                commentLimitArea.click(DeleteComment)
+
+                //delete All comments
+                btnDeleteAll.click(DeleteAllComments);
+            }
+            //AddNewComment
+            function AddNewComment(e) {
+                //console.log((textArea.val()));
+                if (textArea.val() === "") {
+                    alert("Göndermek için önce bir yorum yazmalısınız!");
+
+                } else {
+                    const commentsLi = document.createElement("li");
+                    commentsLi.className = "comments";
+                    const commentsInfoDiv = document.createElement("div");
+                    commentsInfoDiv.className = "commentsInfo";
+                    const btnCommentDelete = document.createElement("button");
+                    btnCommentDelete.className = "btnCommentDelete";
+                    btnCommentDelete.innerHTML = "&times";
+                    const commentsTextP = document.createElement("p");
+                    commentsTextP.className = "commentsText";
+                    //textareadan aldığım değeri p etkitene ekledim.
+                    commentsTextP.appendChild(document.createTextNode(textArea.val()));
+                    //add commentsInfoDiv to commentsLi
+                    commentsLi.appendChild(commentsInfoDiv);
+                    //add btnCommentDelete to commentsLi
+                    commentsLi.appendChild(btnCommentDelete);
+                    //add commentsTextP to commentsInfoDiv
+                    commentsInfoDiv.appendChild(commentsTextP);
+
+                    //add commentsLi to  commentLimitAreaUl
+                    /*Note: append--> lastchild .... prepend-->firstchild  */
+                    commentLimitArea.prepend(commentsLi);
+
+                    //clearTextarea
+                    textArea.val("");
+                    e.preventDefault();
+                }
+
+
+            }
+
+            //DeleteComment
+            function DeleteComment(e) {
+                if (e.target.className === "btnCommentDelete") {
+                    e.target.parentElement.remove();
+                }
+                e.preventDefault();
+            }
+
+            //Delete All Comments
+            function DeleteAllComments(e) {
+                let arr = document.querySelectorAll("#commentLimitArea .comments");
+                for (let i = 0; i < arr.length; i++) {
+                    arr[i].remove();
+                }
+                e.preventDefault();
+            }
+            /* For Comment Section <<<<<<<*/
 
         });
     </script>
