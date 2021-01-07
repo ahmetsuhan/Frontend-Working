@@ -816,7 +816,6 @@ footer {
     height: auto;
     text-align: center;
     margin-bottom: .5rem;
-    border: 1px solid red;
 }
 
 #mainAuthorWorksSliderContentText header {
@@ -830,7 +829,6 @@ footer {
     justify-content: center;
     width: 100%;
     height: auto;
-    border: 1px solid red;
 }
 
 #worksSliderIcon a {
@@ -842,4 +840,114 @@ footer {
 
 #worksSliderIcon a:hover {
     opacity: 1;
+}
+
+
+/*comment section */
+
+#commentSection {
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #fff;
+}
+
+#commentArea {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+#commentLimitArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid;
+    padding: 2rem;
+}
+
+.comments {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    color: #000;
+    padding: 5px;
+    margin-bottom: .2rem;
+}
+
+.commentsInfo {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.commentsInfo:hover {
+    background-color: #ddd;
+}
+
+.commentsText {
+    width: 100%;
+    height: auto;
+    color: rgba(0, 0, 0, .5);
+    display: inline-block;
+}
+
+#writeNewComment {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+#commentSection textarea {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#commentBtnGroup {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+#commentSection button {
+    margin-left: .1rem;
+    float: right;
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+    transition: all 0.3s ease 2ms;
+}
+
+#commentSection button:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+
+/*For XS devices */
+
+@media screen and (max-width:575px) {
+    #commentBtnGroup {
+        flex-direction: column;
+        justify-content: center;
+    }
+    #commentSection button {
+        margin-bottom: 5px;
+    }
 }
