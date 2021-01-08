@@ -2486,3 +2486,392 @@ footer {
     font-weight: bold;
     text-decoration: underline;
 }
+
+#allPageWindowArea {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: #eee;
+    vertical-align: top;
+    text-align: center;
+}
+
+@media screen and (min-width:1200px) {
+    #allPageWindowArea {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    #allPageWindowArea {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+#allPageWindowLimitArea {
+    position: relative;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    border: 1 px solid #ddd;
+    outline: none;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    #allPageWindowLimitArea {
+        width: -webkit-calc(1175px - 52px);
+        width: -o-calc(1175px - 52px);
+        width: -moz-calc(1175px - 52px);
+        width: -ms-calc(1175px - 52px);
+        width: calc(1175px - 52px);
+        min-width: -webkit-calc(1175px - 52px);
+        min-width: -o-calc(1175px - 52px);
+        min-width: -moz-calc(1175px - 52px);
+        min-width: -ms-calc(1175px - 52px);
+        min-width: calc(1175px - 52px);
+        max-width: -webkit-calc(1175px - 52px);
+        max-width: -o-calc(1175px - 52px);
+        max-width: -moz-calc(1175px - 52px);
+        max-width: -ms-calc(1175px - 52px);
+        max-width: calc(1175px - 52px);
+        padding: 20px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    #allPageWindowLimitArea {
+        width: -webkit-calc(100% - 48px);
+        width: -o-calc(100% - 48px);
+        width: -moz-calc(100% - 48px);
+        width: -ms-calc(100% - 48px);
+        width: calc(100% - 48px);
+        min-width: -webkit-calc(100% - 48px);
+        min-width: -o-calc(100% - 48px);
+        min-width: -moz-calc(100% - 48px);
+        min-width: -ms-calc(100% - 48px);
+        min-width: calc(100% - 48px);
+        max-width: -webkit-calc(100% - 48px);
+        max-width: -o-calc(100% - 48px);
+        max-width: -moz-calc(100% - 48px);
+        max-width: -ms-calc(100% - 48px);
+        max-width: calc(100% - 48px);
+        padding: 18px;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    #allPageWindowLimitArea {
+        width: -webkit-calc(100% - 44px);
+        width: -o-calc(100% - 44px);
+        width: -moz-calc(100% - 44px);
+        width: -ms-calc(100% - 44px);
+        width: calc(100% - 44px);
+        min-width: -webkit-calc(100% - 44px);
+        min-width: -o-calc(100% - 44px);
+        min-width: -moz-calc(100% - 44px);
+        min-width: -ms-calc(100% - 44px);
+        min-width: calc(100% - 44px);
+        max-width: -webkit-calc(100% - 44px);
+        max-width: -o-calc(100% - 44px);
+        max-width: -moz-calc(100% - 44px);
+        max-width: -ms-calc(100% - 44px);
+        max-width: calc(100% - 44px);
+        padding: 16px;
+    }
+}
+
+
+/*For S devices */
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    #allPageWindowLimitArea {
+        width: -webkit-calc(100% - 40px);
+        width: -o-calc(100% - 40px);
+        width: -moz-calc(100% - 40px);
+        width: -ms-calc(100% - 40px);
+        width: calc(100% - 40px);
+        min-width: -webkit-calc(100% - 40px);
+        min-width: -o-calc(100% - 40px);
+        min-width: -moz-calc(100% - 40px);
+        min-width: -ms-calc(100% - 40px);
+        min-width: calc(100% - 40px);
+        max-width: -webkit-calc(100% - 40px);
+        max-width: -o-calc(100% - 40px);
+        max-width: -moz-calc(100% - 40px);
+        max-width: -ms-calc(100% - 40px);
+        max-width: calc(100% - 40px);
+        padding: 14px;
+    }
+}
+
+
+/*For XS devices */
+
+@media screen and (max-width:575px) {
+    #allPageWindowLimitArea {
+        width: -webkit-calc(100% - 36px);
+        width: -o-calc(100% - 36px);
+        width: -moz-calc(100% - 36px);
+        width: -ms-calc(100% - 36px);
+        width: calc(100% - 36px);
+        min-width: -webkit-calc(100% - 36px);
+        min-width: -o-calc(100% - 36px);
+        min-width: -moz-calc(100% - 36px);
+        min-width: -ms-calc(100% - 36px);
+        min-width: calc(100% - 36px);
+        max-width: -webkit-calc(100% - 36px);
+        max-width: -o-calc(100% - 36px);
+        max-width: -moz-calc(100% - 36px);
+        max-width: -ms-calc(100% - 36px);
+        max-width: calc(100% - 36px);
+        padding: 12px;
+    }
+}
+
+#allPAgeWindowAreaInnerWidth100 {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: center;
+}
+
+#allPAgeWindowAreaInnerUnderlineHeaderArea {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    outline: none;
+    background-color: #fff;
+    text-align: left;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    #allPAgeWindowAreaInnerUnderlineHeaderArea {
+        padding-bottom: 20px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    #allPAgeWindowAreaInnerUnderlineHeaderArea {
+        padding-bottom: 18px;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    #allPAgeWindowAreaInnerUnderlineHeaderArea {
+        padding-bottom: 16px;
+    }
+}
+
+
+/*For S devices */
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    #allPAgeWindowAreaInnerUnderlineHeaderArea {
+        padding-bottom: 14px;
+    }
+}
+
+
+/*For XS devices */
+
+@media screen and (max-width:575px) {
+    #allPAgeWindowAreaInnerUnderlineHeaderArea {
+        padding-bottom: 12px;
+    }
+}
+
+#allPAgeWindowAreaInnerUnderlineHeaderAreaTopHeaderText {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #f90;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 120%;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    #allPAgeWindowAreaInnerUnderlineHeaderAreaTopHeaderText {
+        font-size: 18px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    #allPAgeWindowAreaInnerUnderlineHeaderAreaTopHeaderText {
+        font-size: 16px;
+    }
+}
+
+
+/*For M,S,XS devices */
+
+@media screen and (max-width:991px) {
+    #allPAgeWindowAreaInnerUnderlineHeaderAreaTopHeaderText {
+        font-size: 14px;
+    }
+}
+
+#allPAgeWindowAreaInnerUnderlineHeaderAreaBottomHeaderText {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 120%;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    #allPAgeWindowAreaInnerUnderlineHeaderAreaBottomHeaderText {
+        font-size: 14px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    #allPAgeWindowAreaInnerUnderlineHeaderAreaBottomHeaderText {
+        font-size: 13px;
+    }
+}
+
+
+/*For M,S,XS devices */
+
+@media screen and (max-width:991px) {
+    #allPAgeWindowAreaInnerUnderlineHeaderAreaBottomHeaderText {
+        font-size: 12px;
+    }
+}
+
+#allPageWindowAreaInnerGeneralInfoArea {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 10px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 130%;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    #allPageWindowAreaInnerGeneralInfoArea {
+        font-size: 14px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    #allPageWindowAreaInnerGeneralInfoArea {
+        font-size: 13px;
+    }
+}
+
+
+/*For M,S,XS devices */
+
+@media screen and (max-width:991px) {
+    #allPageWindowAreaInnerGeneralInfoArea {
+        font-size: 12px;
+    }
+}
