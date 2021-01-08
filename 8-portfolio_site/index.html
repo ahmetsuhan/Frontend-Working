@@ -315,6 +315,11 @@
                     scrollTop: $("#mainAuthorWorks").offset().top
                 }, scrollSettings.animationDuration);
             });
+            $('a[href="#comments"]').click(function() {
+                $('html, body').animate({
+                    scrollTop: $("#commentSection").offset().top
+                }, scrollSettings.animationDuration);
+            });
             /*Scrool page between section <<<<<<<<*/
 
 
@@ -346,7 +351,7 @@
                 }
             ];
             var sliderSettings = {
-                animationDuration: 3000,
+                animationDuration: 5000,
                 random: true // set false to change images just manually with using left-right arrow
             };
             var sliderCounter = 0; // To count images which is changed in slider area
@@ -359,14 +364,15 @@
 
             sliderLeftButton.click(function() {
                 sliderCounter--;
-                showSlide(sliderCounter);
+                ShowSlide(sliderCounter);
             });
 
             sliderRightButton.click(function() {
                 sliderCounter++;
-                showSlide(sliderCounter);
+                ShowSlide(sliderCounter);
             });
 
+            /* left-right arrows
             document.querySelectorAll(".js-arrow").forEach(function(item) {
                 item.addEventListener("mouseenter", function() {
                     clearInterval(sliderInterval);
@@ -375,11 +381,14 @@
                     SliderInit(sliderSettings);
                 });
             });
+            */
 
-            document.querySelector("#mainAuthorWorksSliderArea").addEventListener("mouseenter", function() {
+            //when mouse enter slide area slide show will be stopped
+            $("#mainAuthorWorksSliderArea").mouseover(function() {
                 clearInterval(sliderInterval);
             });
-            document.querySelector("#mainAuthorWorksSliderArea").addEventListener("mouseleave", function() {
+            //when mouse leave slide area slide show will be played
+            $("#mainAuthorWorksSliderArea").mouseleave(function() {
                 SliderInit(sliderSettings);
             });
 
@@ -400,13 +409,13 @@
                         }
                         sliderCounter++;
                     }
-                    showSlide(sliderCounter);
+                    ShowSlide(sliderCounter);
                 }, sliderSettings.animationDuration);
             }
 
 
 
-            function showSlide(i) {
+            function ShowSlide(i) {
 
                 sliderCounter = i;
                 if (i < 0) {
