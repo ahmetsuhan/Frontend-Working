@@ -2875,3 +2875,338 @@ footer {
         font-size: 12px;
     }
 }
+
+#allPAgeWindowAreaInnerBankAccountsArea {
+    position: relative;
+    display: block;
+    float: left;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: center;
+}
+
+#allPAgeWindowAreaInnerBankAccountsBalanceArea {
+    position: relative;
+    display: block;
+    float: left;
+    width: -webkit-calc(100% + 10px);
+    width: -moz-calc(100% + 10px);
+    width: -o-calc(100% + 10px);
+    width: -ms-calc(100% + 10px);
+    width: calc(100% + 10px);
+    min-width: -webkit-calc(100% + 10px);
+    min-width: -moz-calc(100% + 10px);
+    min-width: -o-calc(100% + 10px);
+    min-width: -ms-calc(100% + 10px);
+    min-width: calc(100% + 10px);
+    max-width: -webkit-calc(100% + 10px);
+    max-width: -moz-calc(100% + 10px);
+    max-width: -o-calc(100% + 10px);
+    max-width: -ms-calc(100% + 10px);
+    max-width: calc(100% + 10px);
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    top: 0;
+    left: -5px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: center;
+}
+
+.allPAgeWindowAreaInnerBankAccountsLimitArea {
+    /*display: inline-block;*/
+    float: left;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0;
+    padding: 10px;
+    overflow: hidden;
+    border: none;
+    border: 1px solid #ccc;
+    outline: none;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+/*For XL, L devices */
+
+@media screen and (min-width:992px) {
+    .allPAgeWindowAreaInnerBankAccountsLimitArea {
+        /*margin,padding çıkarıldı*/
+        width: -ms-calc(33.333333% - 32px);
+        width: -moz-calc(33.333333% - 32px);
+        width: -webkit-calc(33.333333% - 32px);
+        width: -o-calc(33.333333% - 32px);
+        width: calc(33.333333% - 32px);
+        min-width: -ms-calc(33.333333% - 32px);
+        min-width: -moz-calc(33.333333% - 32px);
+        min-width: -webkit-calc(33.333333% - 32px);
+        min-width: -o-calc(33.333333% - 32px);
+        min-width: calc(33.333333% - 32px);
+        max-width: -ms-calc(33.333333% - 32px);
+        max-width: -moz-calc(33.333333% - 32px);
+        max-width: -webkit-calc(33.333333% - 32px);
+        max-width: -o-calc(33.333333% - 32px);
+        max-width: calc(33.333333% - 32px);
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .allPAgeWindowAreaInnerBankAccountsLimitArea {
+        /*margin,padding çıkarıldı*/
+        width: -ms-calc(50% - 32px);
+        width: -moz-calc(50% - 32px);
+        width: -webkit-calc(50% - 32px);
+        width: -o-calc(50% - 32px);
+        width: calc(50% - 32px);
+        min-width: -ms-calc(50% - 32px);
+        min-width: -moz-calc(50% - 32px);
+        min-width: -webkit-calc(50% - 32px);
+        min-width: -o-calc(50% - 32px);
+        min-width: calc(50% - 32px);
+        max-width: -ms-calc(50% - 32px);
+        max-width: -moz-calc(50% - 32px);
+        max-width: -webkit-calc(50% - 32px);
+        max-width: -o-calc(50% - 32px);
+        max-width: calc(50% - 32px);
+    }
+}
+
+
+/*For S, XS devices */
+
+@media screen and (max-width:767px) {
+    .allPAgeWindowAreaInnerBankAccountsLimitArea {
+        /*margin,padding çıkarıldı*/
+        width: -ms-calc(100% - 32px);
+        width: -moz-calc(100% - 32px);
+        width: -webkit-calc(100% - 32px);
+        width: -o-calc(100% - 32px);
+        width: calc(100% - 32px);
+        min-width: -ms-calc(100% - 32px);
+        min-width: -moz-calc(100% - 32px);
+        min-width: -webkit-calc(100% - 32px);
+        min-width: -o-calc(100% - 32px);
+        min-width: calc(100% - 32px);
+        max-width: -ms-calc(100% - 32px);
+        max-width: -moz-calc(100% - 32px);
+        max-width: -webkit-calc(100% - 32px);
+        max-width: -o-calc(100% - 32px);
+        max-width: calc(100% - 32px);
+    }
+}
+
+.allPAgeWindowAreaInnerBankAccountsLogoArea {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    /*bank icons size: 32x32  */
+    height: 32px;
+    min-height: 32px;
+    max-height: 32px;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 10px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.allPAgeWindowAreaInnerBankAccountsLogoArea img {
+    display: block;
+    width: auto;
+    /*img size: 32x32*/
+    height: 32px;
+    min-height: 32px;
+    max-height: 32px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.allPAgeWindowAreaInnerBankAccountsTable {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: left;
+    text-decoration: none;
+}
+
+.allPAgeWindowAreaInnerBankAccountsTableHeaderText {
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    line-height: 125%;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .allPAgeWindowAreaInnerBankAccountsTableHeaderText {
+        width: 60px;
+        min-width: 60px;
+        max-width: 60px;
+        font-size: 14px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .allPAgeWindowAreaInnerBankAccountsTableHeaderText {
+        width: 50px;
+        min-width: 50px;
+        max-width: 50px;
+        font-size: 13px;
+    }
+}
+
+
+/*For M,S,XS devices */
+
+@media screen and (max-width:991px) {
+    .allPAgeWindowAreaInnerBankAccountsTableHeaderText {
+        width: 50px;
+        min-width: 50px;
+        max-width: 50px;
+        font-size: 12px;
+    }
+}
+
+.allPAgeWindowAreaInnerBankAccountsTableNoktaText {
+    width: 10px;
+    min-width: 10px;
+    max-width: 10px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    line-height: 125%;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .allPAgeWindowAreaInnerBankAccountsTableNoktaText {
+        font-size: 14px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .allPAgeWindowAreaInnerBankAccountsTableNoktaText {
+        font-size: 13px;
+    }
+}
+
+
+/*For M,S,XS devices */
+
+@media screen and (max-width:991px) {
+    .allPAgeWindowAreaInnerBankAccountsTableNoktaText {
+        font-size: 12px;
+    }
+}
+
+.allPAgeWindowAreaInnerBankAccountsTableContentText {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    line-height: 125%;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .allPAgeWindowAreaInnerBankAccountsTableContentText {
+        font-size: 14px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .allPAgeWindowAreaInnerBankAccountsTableContentText {
+        font-size: 13px;
+    }
+}
+
+
+/*For M,S,XS devices */
+
+@media screen and (max-width:991px) {
+    .allPAgeWindowAreaInnerBankAccountsTableContentText {
+        font-size: 12px;
+    }
+}
