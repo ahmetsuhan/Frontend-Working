@@ -68,15 +68,12 @@
                             <li class="headerMenuNavOptions"><a href="#works" target="_top">Yaptığım İşler</a></li>
                             <li class="headerMenuNavOptions"><a href="#comments" target="_top">Yorumlar</a></li>
                             <li class="headerMenuNavOptions"><a href="#contact" target="_top">İletişim</a></li>
-
                         </ul>
-
                     </nav>
 
                     <div id="headerMenuOpenButtonArea">
                         <img height="26px" width="26px" src="../img/menuCizgileri.png" alt="menu toggle icon" title="">
                     </div>
-
                 </div>
 
                 <nav id="headerMenuOpenButtonMenuLimitArea" style="display: none;">
@@ -90,9 +87,6 @@
                     </div>
                 </nav>
             </div>
-
-
-
 
             <div id="headerContentArea">
                 <div id="headerContentLimitArea">
@@ -116,7 +110,6 @@
                                 <li>
                                     <a href="https://www.facebook.com/ahmetsuhanoka/" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
                                 </li>
-
                             </ul>
                         </div>
                     </div>
@@ -128,7 +121,8 @@
         </header>
 
         <main>
-            <article id="mainAuthorInfo">
+
+            <section id="mainAuthorInfo">
                 <div id="mainAuthorInfoContainer">
                     <h2>Hakkında</h2>
                     <div id="hakkindaContent">
@@ -180,9 +174,9 @@
 
                     </div>
                 </div>
-            </article>
+            </section>
 
-            <article id="mainAuthorWorks">
+            <section id="mainAuthorWorks">
                 <div id="mainAuthorWorksContainer">
                     <div id="mainAuthorWorksSliderArea">
                         <div id="mainAuthorWorksSliderContent">
@@ -208,49 +202,65 @@
 
                 </div>
 
-            </article>
-        </main>
+            </section>
 
 
-        <section id="commentSection">
+            <section id="commentSection">
 
-            <div id="commentArea">
-                <ul id="commentLimitArea">
+                <div id="commentArea">
+                    <ul id="commentLimitArea">
 
-                    <li class="comments">
-                        <div class="commentsInfo">
-                            <p class="commentsText">a</p>
-                        </div>
-                        <button class="btnCommentDelete">&times</button>
-                    </li>
-                    <li class="comments">
-                        <div class="commentsInfo">
-                            <p class="commentsText">as</p>
-                        </div>
-                        <button class="btnCommentDelete">&times</button>
-                    </li>
 
-                    <li id="writeNewComment">
-                        <form>
-                            <textarea rows="5" cols="30" placeholder="Please add your comment here" name="comments"></textarea>
-                            <div id="commentBtnGroup">
-                                <button type="submit" id="btnDeleteAll">Hepsini Sil</button>
-                                <button id="btnAddComment" type="submit">Gönder</button>
-                            </div>
+
+                        <li id="writeNewComment">
+                            <form>
+                                <textarea rows="5" cols="30" placeholder="Please add your comment here" name="comments"></textarea>
+                                <div id="commentBtnGroup">
+                                    <button type="submit" id="btnDeleteAll">Hepsini Sil</button>
+                                    <button id="btnAddComment" type="submit">Gönder</button>
+                                </div>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+
+            </section>
+
+
+            <section id="contactSection">
+
+                <div style="text-align:center">
+                    <h2>İletişim</h2>
+
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <img src="img/1.jpg
+                            " style="width:100%">
+                    </div>
+                    <div class="column">
+                        <form action="#">
+                            <label for="fname">Ad</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Adınız..">
+                            <label for="lname">Soyad</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Soyadınız..">
+                            <label for="subject">Mesaj</label>
+                            <textarea id="subject" name="subject" placeholder="Mesajınız.." style="height:170px"></textarea>
+                            <button type="submit">Gönder</button>
                         </form>
-                    </li>
-                </ul>
-            </div>
+                    </div>
 
-        </section>
+                </div>
+            </section>
 
+
+        </main>
         <footer>
             <div id="copyright">
                 Copyright &copy; 2020 - 2030 coderbite.tech All Rights Reserved.
             </div>
         </footer>
     </div>
-
     <script>
         /*document ready?*/
         $(function() {
@@ -263,7 +273,6 @@
             var headerContentOffset = $("#position-fixed-cont").innerHeight();
             $("#headerContentArea").css("top", headerContentOffset);
             /*Header content starting pos <<<<<<<< */
-
 
             /*For Small Devices menu open button process >>>>>>>>>>*/
             $("#headerMenuOpenButtonArea").click(function() {
@@ -303,7 +312,6 @@
             });
             /*When the return top arrow clicked go to top slowly <<<<<<<<*/
 
-
             /*Scrool page between section >>>>>>>>*/
             $('a[href="#hakkimda"]').click(function() {
                 $('html, body').animate({
@@ -318,6 +326,11 @@
             $('a[href="#comments"]').click(function() {
                 $('html, body').animate({
                     scrollTop: $("#commentSection").offset().top
+                }, scrollSettings.animationDuration);
+            });
+            $('a[href="#contact"]').click(function() {
+                $('html, body').animate({
+                    scrollTop: $("#contactSection").offset().top
                 }, scrollSettings.animationDuration);
             });
             /*Scrool page between section <<<<<<<<*/
@@ -372,17 +385,6 @@
                 ShowSlide(sliderCounter);
             });
 
-            /* left-right arrows
-            document.querySelectorAll(".js-arrow").forEach(function(item) {
-                item.addEventListener("mouseenter", function() {
-                    clearInterval(sliderInterval);
-                });
-                item.addEventListener("mouseleave", function() {
-                    SliderInit(sliderSettings);
-                });
-            });
-            */
-
             //when mouse enter slide area slide show will be stopped
             $("#mainAuthorWorksSliderArea").mouseover(function() {
                 clearInterval(sliderInterval);
@@ -391,7 +393,6 @@
             $("#mainAuthorWorksSliderArea").mouseleave(function() {
                 SliderInit(sliderSettings);
             });
-
 
             function SliderInit(sliderSettings) {
                 var prev;
@@ -413,8 +414,6 @@
                 }, sliderSettings.animationDuration);
             }
 
-
-
             function ShowSlide(i) {
 
                 sliderCounter = i;
@@ -432,7 +431,6 @@
 
 
             /* For Comment Section >>>>>>>>*/
-
             const btnSendComment = $("#btnAddComment");
             const textArea = $("#writeNewComment form textarea");
             const btnDeleteAll = $("#btnDeleteAll");
@@ -444,17 +442,11 @@
                 //add new Comment
                 btnSendComment.click(AddNewComment);
 
-
-
                 //delete a comment
                 commentLimitArea.click(DeleteComment)
 
-
-
                 //delete All comments
                 btnDeleteAll.click(DeleteAllComments);
-
-
             }
             //AddNewComment
             function AddNewComment(e) {
@@ -530,7 +522,6 @@
                 }
             }
 
-
             function DeleteAllCommentToSessionStorage() {
                 sessionStorage.clear();
             }
@@ -546,7 +537,6 @@
                 return comments;
             }
 
-
             function DeleteCommentFromSessionStorage(text) {
                 comments = GetCommentsFromSessionStorage();
                 for (let i = 0; i < comments.length; i++) {
@@ -554,17 +544,12 @@
                         comments.splice(i, 1);
                     }
                 }
-
                 sessionStorage.setItem("Comments", JSON.stringify(comments));
             }
             /* For Comment Section <<<<<<<*/
 
-
-
         });
     </script>
-
-
 </body>
 
 </html>
