@@ -444,12 +444,15 @@
                 //add new Comment
                 btnSendComment.click(AddNewComment);
 
+
+
                 //delete a comment
                 commentLimitArea.click(DeleteComment)
 
+
+
                 //delete All comments
                 btnDeleteAll.click(DeleteAllComments);
-
 
 
             }
@@ -496,8 +499,9 @@
 
             //DeleteComment
             function DeleteComment(e) {
-                if (e.target.className === "btnCommentDelete") {
+                if (e.target.className == ("btnCommentDelete")) {
                     e.target.parentElement.remove();
+                    DeleteCommentFromSessionStorage(e.target.parentElement.children[0].children[0].textContent);
                 }
                 e.preventDefault();
             }
@@ -522,7 +526,7 @@
 
                 for (let i = 0; i < allComments.length; i++) {
                     storage.push(allComments[i].innerText);
-                    sessionStorage.setItem(`Comment ${i}`, storage[i].toString());
+                    sessionStorage.setItem(`Comments`, JSON.stringify(storage));
                 }
             }
 
@@ -531,10 +535,31 @@
                 sessionStorage.clear();
             }
 
-            function DeleteCommentToSessionStorage() {
-                //write code here
+            let comments;
+
+            function GetCommentsFromSessionStorage() {
+                if (sessionStorage.getItem("Comments") == null) {
+                    comments = [];
+                } else {
+                    comments = JSON.parse(sessionStorage.getItem("Comments"));
+                }
+                return comments;
+            }
+
+
+            function DeleteCommentFromSessionStorage(text) {
+                comments = GetCommentsFromSessionStorage();
+                for (let i = 0; i < comments.length; i++) {
+                    if (comments[i] == text) {
+                        comments.splice(i, 1);
+                    }
+                }
+
+                sessionStorage.setItem("Comments", JSON.stringify(comments));
             }
             /* For Comment Section <<<<<<<*/
+
+
 
         });
     </script>
