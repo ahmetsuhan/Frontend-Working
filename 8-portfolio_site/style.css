@@ -4,6 +4,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    font-size: 16px;
 }
 
 html {
@@ -12,6 +13,51 @@ html {
     line-height: 1.5;
     font-variant: normal;
     font-style: normal;
+}
+
+
+/*XL device */
+
+@media screen and (min-width:1200px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+
+/*For S devices */
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+
+/*For XS devices */
+
+@media screen and (max-width:575px) {
+    html {
+        font-size: 13px;
+    }
 }
 
 body {
@@ -28,11 +74,6 @@ body {
     min-height: 100%;
     max-height: 100%;
     margin: 0 auto;
-    padding: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
     border: none;
     outline: none;
     background-color: #fff;
@@ -78,7 +119,11 @@ header {
     margin-right: auto;
     margin-left: 5px;
     width: 26px;
+    min-width: 26px;
+    max-width: 26px;
     height: 26px;
+    min-height: 26px;
+    max-height: 26px;
 }
 
 #logo img {
@@ -114,7 +159,7 @@ header {
     cursor: pointer;
     color: #ffffff;
     font-family: Arial;
-    font-size: 10px;
+    font-size: 1rem;
     font-weight: 600;
     padding: 7px 15px;
     text-decoration: none;
@@ -129,27 +174,9 @@ header {
 }
 
 
-/*XL device */
+/*For XL, L,M devices */
 
-@media screen and (min-width:1200px) {
-    #headerMenuOpenButtonArea {
-        display: none;
-    }
-}
-
-
-/*For L devices */
-
-@media screen and (min-width:992px) and (max-width:1199px) {
-    #headerMenuOpenButtonArea {
-        display: none;
-    }
-}
-
-
-/*For M devices */
-
-@media screen and (min-width:768px) and (max-width:991px) {
+@media screen and (min-width:768px) {
     #headerMenuOpenButtonArea {
         display: none;
     }
@@ -210,7 +237,6 @@ header {
     max-width: 100%;
     height: auto;
     margin: 0 auto;
-    padding: 0;
 }
 
 #headerMenuOpenButtonMenu {
@@ -304,6 +330,8 @@ header {
 
 #headerContentArea {
     width: 100%;
+    min-width: 100%;
+    max-width: 100%;
     height: auto;
     z-index: 97;
 }
@@ -315,6 +343,8 @@ header {
     width: auto;
     height: auto;
     margin: 0 auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     background-image: url(img/bg-image.jpg);
     background-size: cover;
     background-position: center;
@@ -323,6 +353,22 @@ header {
 }
 
 #authorContainer {
+    width: -webkit-calc(100% - 40%);
+    width: -moz-calc(100% - 40%);
+    width: -o-calc(100% - 40%);
+    width: -ms-calc(100% - 40%);
+    width: calc(100% - 40%);
+    min-width: -webkit-calc(100% - 40%);
+    min-width: -moz-calc(100% - 40%);
+    min-width: -o-calc(100% - 40%);
+    min-width: -ms-calc(100% - 40%);
+    min-width: calc(100% - 40%);
+    max-width: -webkit-calc(100% - 40%);
+    max-width: -moz-calc(100% - 40%);
+    max-width: -o-calc(100% - 40%);
+    max-width: -ms-calc(100% - 40%);
+    max-width: calc(100% - 40%);
+    height: auto;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 20px;
@@ -335,60 +381,10 @@ header {
     box-shadow: 1px 3px 9px 5px;
 }
 
-
-/*XL device */
-
-@media screen and (min-width:1200px) {
-    #authorContainer {
-        width: 375px;
-        height: auto;
-    }
-}
-
-
-/*For L devices */
-
-@media screen and (min-width:992px) and (max-width:1199px) {
-    #authorContainer {
-        width: 325px;
-        height: auto;
-    }
-}
-
-
-/*For M devices */
-
-@media screen and (min-width:768px) and (max-width:991px) {
-    #authorContainer {
-        width: 275px;
-        height: auto;
-    }
-}
-
-
-/*For S devices */
-
-@media screen and (min-width:576px) and (max-width:767px) {
-    #authorContainer {
-        width: 225px;
-        height: auto;
-    }
-}
-
-
-/*For XS devices */
-
-@media screen and (max-width:575px) {
-    #authorContainer {
-        width: 175px;
-        height: auto;
-    }
-}
-
 #author-image-container {
-    text-align: center;
     width: 100%;
     height: auto;
+    text-align: center;
 }
 
 #author-image-container img {
@@ -409,64 +405,12 @@ header {
     text-align: center;
 }
 
-
-/*XL device */
-
-@media screen and (min-width:1200px) {
-    #author-header {
-        font-size: 16px;
-    }
-    #author-info-text {
-        font-size: 16px;
-    }
+#author-header {
+    font-size: 1rem;
 }
 
-
-/*For L devices */
-
-@media screen and (min-width:992px) and (max-width:1199px) {
-    #author-header {
-        font-size: 15px;
-    }
-    #author-info-text {
-        font-size: 15px;
-    }
-}
-
-
-/*For M devices */
-
-@media screen and (min-width:768px) and (max-width:991px) {
-    #author-header {
-        font-size: 14px;
-    }
-    #author-info-text {
-        font-size: 14px;
-    }
-}
-
-
-/*For S devices */
-
-@media screen and (min-width:576px) and (max-width:767px) {
-    #author-header {
-        font-size: 13px;
-    }
-    #author-info-text {
-        font-size: 13px;
-    }
-}
-
-
-/*For XS devices */
-
-@media screen and (max-width:575px) {
-    #author-header {
-        font-size: 13px;
-    }
-    #author-info-text {
-        font-size: 13px;
-    }
+#author-info-text {
+    font-size: 1rem;
 }
 
 #social {
@@ -483,56 +427,16 @@ header {
 
 #social li a {
     color: #333;
-    transition: all 0.3 ease 2ms;
+    transition: all 0.3s ease 2ms;
 }
 
 #social li a:hover {
+    color: rgba(0, 0, 0, .5);
     opacity: .8;
 }
 
-
-/*XL device */
-
-@media screen and (min-width:1200px) {
-    #social li a {
-        font-size: 16px;
-    }
-}
-
-
-/*For L devices */
-
-@media screen and (min-width:992px) and (max-width:1199px) {
-    #social li a {
-        font-size: 15px;
-    }
-}
-
-
-/*For M devices */
-
-@media screen and (min-width:768px) and (max-width:991px) {
-    #social li a {
-        font-size: 14px;
-    }
-}
-
-
-/*For S devices */
-
-@media screen and (min-width:576px) and (max-width:767px) {
-    #social li a {
-        font-size: 13px;
-    }
-}
-
-
-/*For XS devices */
-
-@media screen and (max-width:575px) {
-    #social li a {
-        font-size: 13px;
-    }
+#social li a {
+    font-size: 1rem;
 }
 
 
@@ -543,14 +447,12 @@ main {
     height: auto;
     background-color: #fff;
     margin: 0 auto;
-    padding: 0;
 }
 
 #mainAuthorInfo {
     width: 100%;
     height: auto;
     margin: 0 auto;
-    padding: 0;
 }
 
 #mainAuthorInfoContainer {
@@ -566,53 +468,9 @@ main {
 }
 
 #mainAuthorInfoContainer h2 {
+    font-size: 2rem;
     margin-bottom: 10px;
     border-bottom: 1px solid rgba(0, 0, 0, .5);
-}
-
-
-/*XL device */
-
-@media screen and (min-width:1200px) {
-    html {
-        font-size: 16px;
-    }
-}
-
-
-/*For L devices */
-
-@media screen and (min-width:992px) and (max-width:1199px) {
-    html {
-        font-size: 15px;
-    }
-}
-
-
-/*For M devices */
-
-@media screen and (min-width:768px) and (max-width:991px) {
-    html {
-        font-size: 14px;
-    }
-}
-
-
-/*For S devices */
-
-@media screen and (min-width:576px) and (max-width:767px) {
-    html {
-        font-size: 13px;
-    }
-}
-
-
-/*For XS devices */
-
-@media screen and (max-width:575px) {
-    html {
-        font-size: 13px;
-    }
 }
 
 #hakkindaContent {
@@ -625,10 +483,10 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    text-align: justify;
 }
 
 .hakkindaContentItem {
+    text-align: justify;
     height: auto;
     padding: 5px;
 }
@@ -650,18 +508,9 @@ main {
 }
 
 
-/*XL device */
+/*For XL,L devices */
 
-@media screen and (min-width:1200px) {
-    .hakkindaContentItem {
-        width: 33.333%;
-    }
-}
-
-
-/*For L devices */
-
-@media screen and (min-width:992px) and (max-width:1199px) {
+@media screen and (min-width:992px) {
     .hakkindaContentItem {
         width: 33.333%;
     }
@@ -677,37 +526,12 @@ main {
 }
 
 
-/*For S devices */
+/*For XS,S devices */
 
-@media screen and (min-width:576px) and (max-width:767px) {
+@media screen and (max-width:767px) {
     .hakkindaContentItem {
         width: 100%;
     }
-}
-
-
-/*For XS devices */
-
-@media screen and (max-width:575px) {
-    .hakkindaContentItem {
-        width: 100%;
-    }
-}
-
-
-/*Footer */
-
-footer {
-    width: 100%;
-    height: auto;
-    background-color: #333;
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-    margin: 0 auto;
-    padding: 0;
-    padding: 10px;
-    align-items: center;
 }
 
 
@@ -771,7 +595,7 @@ footer {
 
 @media screen and (min-width:1200px) {
     #mainAuthorWorksSliderContentImage img {
-        height: 300px;
+        height: 350px;
     }
 }
 
@@ -780,7 +604,7 @@ footer {
 
 @media screen and (min-width:992px) and (max-width:1199px) {
     #mainAuthorWorksSliderContentImage img {
-        height: 250px;
+        height: 300px;
     }
 }
 
@@ -789,7 +613,7 @@ footer {
 
 @media screen and (min-width:768px) and (max-width:991px) {
     #mainAuthorWorksSliderContentImage img {
-        height: 200px;
+        height: 250px;
     }
 }
 
@@ -798,7 +622,7 @@ footer {
 
 @media screen and (min-width:576px) and (max-width:767px) {
     #mainAuthorWorksSliderContentImage img {
-        height: 150px;
+        height: 200px;
     }
 }
 
@@ -807,7 +631,7 @@ footer {
 
 @media screen and (max-width:575px) {
     #mainAuthorWorksSliderContentImage img {
-        height: 100px;
+        height: 150px;
     }
 }
 
@@ -930,7 +754,7 @@ footer {
 #commentSection button {
     margin-left: .1rem;
     float: right;
-    padding: 5px;
+    padding: 1rem;
     background-color: #333;
     color: #fff;
     transition: all 0.3s ease 2ms;
@@ -962,7 +786,7 @@ footer {
     height: auto;
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 10px;
+    padding: 1rem;
 }
 
 
@@ -1008,7 +832,7 @@ textarea {
 #contactSection button {
     margin-left: .1rem;
     float: right;
-    padding: 5px;
+    padding: 1rem;
     background-color: #333;
     color: #fff;
     transition: all 0.3s ease 2ms;
@@ -1017,4 +841,20 @@ textarea {
 #contactSection button:hover {
     background-color: #fff;
     color: #333;
+}
+
+
+/*Footer */
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin: 0 auto;
+    padding: 0;
+    padding: 1rem;
+    align-items: center;
 }
