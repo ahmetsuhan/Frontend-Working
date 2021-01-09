@@ -2487,7 +2487,8 @@ footer {
     text-decoration: underline;
 }
 
-#allPageWindowArea {
+
+.allPageWindowArea {
     position: relative;
     display: block;
     width: 100%;
@@ -2504,20 +2505,20 @@ footer {
 }
 
 @media screen and (min-width:1200px) {
-    #allPageWindowArea {
+    .allPageWindowArea {
         padding-top: 10px;
         padding-bottom: 10px;
     }
 }
 
 @media screen and (max-width:1199px) {
-    #allPageWindowArea {
+    .allPageWindowArea {
         padding-top: 5px;
         padding-bottom: 5px;
     }
 }
 
-#allPageWindowLimitArea {
+.allPageWindowLimitArea {
     position: relative;
     display: block;
     height: auto;
@@ -2535,7 +2536,7 @@ footer {
 /*For XL devices */
 
 @media screen and (min-width:1200px) {
-    #allPageWindowLimitArea {
+    .allPageWindowLimitArea {
         width: -webkit-calc(1175px - 52px);
         width: -o-calc(1175px - 52px);
         width: -moz-calc(1175px - 52px);
@@ -2559,7 +2560,7 @@ footer {
 /*For L devices */
 
 @media screen and (min-width:992px) and (max-width:1199px) {
-    #allPageWindowLimitArea {
+    .allPageWindowLimitArea {
         width: -webkit-calc(100% - 48px);
         width: -o-calc(100% - 48px);
         width: -moz-calc(100% - 48px);
@@ -2583,7 +2584,7 @@ footer {
 /*For M devices */
 
 @media screen and (min-width:768px) and (max-width:991px) {
-    #allPageWindowLimitArea {
+    .allPageWindowLimitArea {
         width: -webkit-calc(100% - 44px);
         width: -o-calc(100% - 44px);
         width: -moz-calc(100% - 44px);
@@ -2607,7 +2608,7 @@ footer {
 /*For S devices */
 
 @media screen and (min-width:576px) and (max-width:767px) {
-    #allPageWindowLimitArea {
+    .allPageWindowLimitArea {
         width: -webkit-calc(100% - 40px);
         width: -o-calc(100% - 40px);
         width: -moz-calc(100% - 40px);
@@ -2631,7 +2632,7 @@ footer {
 /*For XS devices */
 
 @media screen and (max-width:575px) {
-    #allPageWindowLimitArea {
+    .allPageWindowLimitArea {
         width: -webkit-calc(100% - 36px);
         width: -o-calc(100% - 36px);
         width: -moz-calc(100% - 36px);
