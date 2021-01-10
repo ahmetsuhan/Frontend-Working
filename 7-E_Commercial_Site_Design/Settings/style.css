@@ -4197,3 +4197,406 @@ footer {
         font-size: 12px;
     }
 }
+
+.allPageWindowAreaInnerOurDealersArea {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .allPageWindowAreaInnerOurDealersArea {
+        font-size: 14px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .allPageWindowAreaInnerOurDealersArea {
+        font-size: 13px;
+    }
+}
+
+
+/*For M,S,XS devices */
+
+@media screen and (max-width:991px) {
+    .allPageWindowAreaInnerOurDealersArea {
+        font-size: 12px;
+    }
+}
+
+.allPageWindowAreaInnerOurDealersHeaderText {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 10px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #08a;
+    line-height: 1.2;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .allPageWindowAreaInnerOurDealersHeaderText {
+        font-size: 14px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .allPageWindowAreaInnerOurDealersHeaderText {
+        font-size: 13px;
+    }
+}
+
+
+/*For M,S,XS devices */
+
+@media screen and (max-width:991px) {
+    .allPageWindowAreaInnerOurDealersHeaderText {
+        font-size: 12px;
+    }
+}
+
+.allPageWindowAreaInnerOurDealersInfoText {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    border: none;
+    border-bottom: 1px dashed #ccc;
+    outline: none;
+    background-color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    line-height: 1.25;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .allPageWindowAreaInnerOurDealersInfoText {
+        font-size: 14px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .allPageWindowAreaInnerOurDealersInfoText {
+        font-size: 13px;
+    }
+}
+
+
+/*For M,S,XS devices */
+
+@media screen and (max-width:991px) {
+    .allPageWindowAreaInnerOurDealersInfoText {
+        font-size: 12px;
+    }
+}
+
+#sayfalamaAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: none;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+#sayfalamaAlaniIciSayfaVeKayitSayisiAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: 0;
+    overflow: none;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    line-height: 1.2;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    #sayfalamaAlaniIciSayfaVeKayitSayisiAlani {
+        font-size: 14px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    #sayfalamaAlaniIciSayfaVeKayitSayisiAlani {
+        font-size: 13px;
+    }
+}
+
+
+/*For M,S,XS devices */
+
+@media screen and (max-width:991px) {
+    #sayfalamaAlaniIciSayfaVeKayitSayisiAlani {
+        font-size: 12px;
+    }
+}
+
+#sayfalamaNumaralandirmaAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: 0;
+    overflow: none;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.sayfalamaNumaralandirmaPasif {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    margin-right: 1px;
+    padding: 0;
+    padding: 5px 5px;
+    overflow: hidden;
+    border: none;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    outline: none;
+    background-color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    line-height: 1.2;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-align: center;
+    -webkit-transition: all 0.3s ease-in-out 2ms;
+    -o-transition: all 0.3s ease-in-out 2ms;
+    -moz-transition: all 0.3s ease-in-out 2ms;
+    -ms-transition: all 0.3s ease-in-out 2ms;
+    transition: all 0.3s ease-in-out 2ms;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .sayfalamaNumaralandirmaPasif {
+        font-size: 14px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .sayfalamaNumaralandirmaPasif {
+        font-size: 13px;
+    }
+}
+
+
+/*For M,S,XS devices */
+
+@media screen and (max-width:991px) {
+    .sayfalamaNumaralandirmaPasif {
+        font-size: 12px;
+    }
+}
+
+.sayfalamaNumaralandirmaPasif:hover {
+    border: 1px solid #999;
+}
+
+.sayfalamaNumaralandirmaPasif a {
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.sayfalamaNumaralandirmaPasif a:link,
+.sayfalamaNumaralandirmaPasif a:active,
+.sayfalamaNumaralandirmaPasif a:visited {
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.sayfalamaNumaralandirmaPasif a:hover {
+    color: #999;
+}
+
+.sayfalamaNumaralandirmaAktif {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 0;
+    padding: 5px 5px;
+    overflow: hidden;
+    border: none;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    outline: none;
+    background-color: #0af;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #fff;
+    line-height: 1.2;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-align: center;
+    -webkit-transition: all 0.3s ease-in-out 2ms;
+    -o-transition: all 0.3s ease-in-out 2ms;
+    -moz-transition: all 0.3s ease-in-out 2ms;
+    -ms-transition: all 0.3s ease-in-out 2ms;
+    transition: all 0.3s ease-in-out 2ms;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .sayfalamaNumaralandirmaAktif {
+        font-size: 14px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .sayfalamaNumaralandirmaAktif {
+        font-size: 13px;
+    }
+}
+
+
+/*For M,S,XS devices */
+
+@media screen and (max-width:991px) {
+    .sayfalamaNumaralandirmaAktif {
+        font-size: 12px;
+    }
+}
+
+.sayfalamaNumaralandirmaAktif:hover {
+    border: 1px solid #999;
+}
+
+.sayfalamaNumaralandirmaAktif a {
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #fff;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.sayfalamaNumaralandirmaAktif a:link,
+.sayfalamaNumaralandirmaAktif a:active,
+.sayfalamaNumaralandirmaAktif a:visited {
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #fff;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.sayfalamaNumaralandirmaAktif a:hover {
+    color: #ff0;
+}
