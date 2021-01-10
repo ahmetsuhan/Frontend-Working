@@ -12,3 +12,5 @@ DESCRIPTION FOR FOLDER NAME:
 4-)E_Commercial_Site_Design --> Fully Responsive E-Commercial Site design that created by using JS, CSS, HTML.
 
 5-)portfolio-site --> Fully responsive online portfolio site designed by using HTML, CSS and JS.
+
+6-)Phone_6S --> This project target is creating imitation of Apple 6S Mobile phone. HTML,CSS and JS.
