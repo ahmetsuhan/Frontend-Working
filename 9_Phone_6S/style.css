@@ -14,6 +14,7 @@ body {
     background-color: #fff;
     display: flex;
     justify-content: center;
+    list-style: none;
 }
 
 #enDisCerceve {
@@ -247,4 +248,137 @@ body {
 
 .fa-camera {
     margin-left: .1rem;
+}
+
+
+/*Password Screen styling */
+
+#passwordScreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #000;
+}
+
+#passwordScreenText {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    /*color:#fff ;*/
+}
+
+#passwordCircleArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.padding-100 {
+    padding: 1rem;
+}
+
+
+/*Password number styling */
+
+#passwordButtonGroupArea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    list-style: none;
+}
+
+.btnPasswordNumberContainer {
+    width: 33%;
+    height: auto;
+    background-color: #000;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 50%;
+    transition: all 0.3s ease 2ms;
+    color: #fff;
+}
+
+.btnPasswordNumber {
+    width: 90%;
+    height: auto;
+    background-color: #000;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: all 0.3s ease 2ms;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnPasswordNumberContainer:hover {
+    opacity: .5;
+}
+
+.btnPasswordContentArea {
+    width: 100%;
+    height: auto;
+    font-size: 2rem;
+}
+
+.btnPasswordNumberContainer:hover .btnPasswordContentArea {
+    color: #333;
+}
+
+.btnPasswordNumberText {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.btnPasswordNumberBottomText {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.passwordScreenBottomArea {
+    width: 100%;
+    height: auto;
+    color: #fff;
+}
+
+.passwordScreenBottomArea {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 7.7rem;
+    justify-content: flex-start;
+    font-size: 2rem;
+}
+
+.passwordScreenBottomLeftText {
+    width: 50%;
+    margin-left: 1rem;
+    height: auto;
+    text-align: left;
+    cursor: pointer;
+}
+
+.passwordScreenBottomRightText {
+    width: 50%;
+    height: auto;
+    text-align: right;
+    margin-right: 1rem;
+    cursor: pointer;
 }
