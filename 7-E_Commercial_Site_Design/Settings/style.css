@@ -4977,3 +4977,245 @@ footer {
     background-color: #fff;
     text-align: left;
 }
+
+.allPageWindowAreaInnerIcHeaderAreaText {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #00aaff;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .allPageWindowAreaInnerIcHeaderAreaText {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .allPageWindowAreaInnerIcHeaderAreaText {
+        font-size: 14px;
+        padding-top: 9px;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .allPageWindowAreaInnerIcHeaderAreaText {
+        font-size: 13px;
+        padding-top: 8px;
+    }
+}
+
+
+/*For S devices */
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .allPageWindowAreaInnerIcHeaderAreaText {
+        font-size: 13px;
+        padding-top: 7px;
+    }
+}
+
+
+/*For XS devices */
+
+@media screen and (max-width:575px) {
+    .allPageWindowAreaInnerIcHeaderAreaText {
+        font-size: 13px;
+        padding-top: 6px;
+    }
+}
+
+.allPageWindowAreaInnerFAQArea {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    border-bottom: 1px dashed #ddd;
+    outline: none;
+    background-color: #fff;
+    text-align: left;
+}
+
+.allPageWindowAreaInnerFAQQuestionHeaderArea {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    text-decoration: none;
+    transition: all 0.3s ease 2ms;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .allPageWindowAreaInnerFAQQuestionHeaderArea {
+        font-size: 14px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .allPageWindowAreaInnerFAQQuestionHeaderArea {
+        font-size: 13px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .allPageWindowAreaInnerFAQQuestionHeaderArea {
+        font-size: 12px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+}
+
+
+/*For S devices */
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .allPageWindowAreaInnerFAQQuestionHeaderArea {
+        font-size: 12px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+}
+
+
+/*For XS devices */
+
+@media screen and (max-width:575px) {
+    .allPageWindowAreaInnerFAQQuestionHeaderArea {
+        font-size: 12px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+}
+
+.allPageWindowAreaInnerFAQQuestionHeaderArea:hover {
+    background-color: #f1f1f1;
+}
+
+.allPageWindowAreaInnerFAQQuestionContentArea {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    line-height: 1.25;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .allPageWindowAreaInnerFAQQuestionContentArea {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .allPageWindowAreaInnerFAQQuestionContentArea {
+        font-size: 13px;
+        padding-bottom: 9px;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .allPageWindowAreaInnerFAQQuestionContentArea {
+        font-size: 12px;
+        padding-bottom: 8px;
+    }
+}
+
+
+/*For S devices */
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .allPageWindowAreaInnerFAQQuestionContentArea {
+        font-size: 12px;
+        padding-bottom: 7px;
+    }
+}
+
+
+/*For XS devices */
+
+@media screen and (max-width:575px) {
+    .allPageWindowAreaInnerFAQQuestionContentArea {
+        font-size: 12px;
+        padding-bottom: 6px;
+    }
+}
