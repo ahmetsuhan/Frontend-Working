@@ -3921,6 +3921,73 @@ footer {
     }
 }
 
+.formElementsSelects {
+    display: block;
+    float: left;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 35px;
+    min-height: 35px;
+    max-height: 35px;
+    margin: 0 auto;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #fff;
+    border: none;
+    border: 1px solid #cccccc;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    outline: none;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1.2;
+    text-align: left;
+    -webkit-transition: all 0.3s ease-in-out 2ms;
+    -o-transition: all 0.3s ease-in-out 2ms;
+    -moz-transition: all 0.3s ease-in-out 2ms;
+    -ms-transition: all 0.3s ease-in-out 2ms;
+    transition: all 0.3s ease-in-out 2ms;
+}
+
+.formElementsSelects:focus {
+    border: 1px solid #999;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .formElementsSelects {
+        font-size: 14px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .formElementsSelects {
+        font-size: 13px;
+    }
+}
+
+
+/*For M,S,XS devices */
+
+@media screen and (max-width:991px) {
+    .formElementsSelects {
+        font-size: 12px;
+    }
+}
+
 .formElementsTextArea {
     display: block;
     float: left;
@@ -5218,4 +5285,372 @@ footer {
         font-size: 12px;
         padding-bottom: 6px;
     }
+}
+
+.checkBoxesAndOptionsContainer {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: left;
+    text-decoration: none;
+}
+
+.checkBoxAndOptionsContainer {
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    padding: 0;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    background-color: #fff;
+    text-align: left;
+    text-decoration: none;
+}
+
+.checkBoxContainer {
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+}
+
+.formElementsCheckBoxInput {
+    position: absolute;
+    visibility: hidden;
+}
+
+.checkBoxInnerStylingArea {
+    float: left;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    border: 1px solid #ccc;
+    outline: none;
+    background-color: #fff;
+    text-align: left;
+    text-decoration: none;
+    transition: all 0.3s ease 2ms;
+}
+
+.checkBoxContainer:hover>.checkBoxInnerStylingArea {
+    border: 1px solid #999;
+}
+
+
+/*There are some bugs to select input checkbox*/
+
+.formElementsCheckBoxInput:checked+span.checkBoxInnerStylingArea {
+    border: 1px solid #999;
+    -webkit-box-shadow: inset 0 0 0 3px #fff;
+    -moz-box-shadow: inset 0 0 0 3px #fff;
+    -o-box-shadow: inset 0 0 0 3px #fff;
+    -ms-box-shadow: inset 0 0 0 3px #fff;
+    box-shadow: inset 0 0 0 3px #fff;
+    background-color: #f90;
+}
+
+.checkBoxNexttoTextArea {
+    float: left;
+    margin: 0 auto;
+    padding: 0;
+    padding-left: 5px;
+    padding-right: 15px;
+    background-color: #fff;
+    outline: none;
+    border: none;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    line-height: 1.2;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .checkBoxNexttoTextArea {
+        font-size: 14px;
+        margin-top: 1px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .checkBoxNexttoTextArea {
+        font-size: 13px;
+        margin-top: 2px;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .checkBoxNexttoTextArea {
+        font-size: 12px;
+        margin-top: 2px;
+    }
+}
+
+
+/*For S devices */
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .checkBoxNexttoTextArea {
+        font-size: 12px;
+        margin-top: 2px;
+    }
+}
+
+
+/*For XS devices */
+
+@media screen and (max-width:575px) {
+    .checkBoxNexttoTextArea {
+        font-size: 12px;
+        margin-top: 2px;
+    }
+}
+
+.checkBoxNexttoTextArea a {
+    font-family: Arial, "Helvatica Neue", Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+    transition: all 0.3s ease 2ms;
+}
+
+.checkBoxNexttoTextArea a:link,
+.checkBoxNexttoTextArea a:active,
+.checkBoxNexttoTextArea a:visited {
+    font-family: Arial, "Helvatica Neue", Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.checkBoxNexttoTextArea a:hover {
+    font-family: Arial, "Helvatica Neue", Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+
+/* Radio button styling*/
+
+.radioButtonsAndOptionsContainer {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: left;
+    text-decoration: none;
+}
+
+.radioButtonAndOptionsContainer {
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    padding: 0;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    background-color: #fff;
+    text-align: left;
+    text-decoration: none;
+}
+
+.radioButtonContainer {
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+}
+
+.formElementsradioButtonInput {
+    position: absolute;
+    visibility: hidden;
+}
+
+.radioButtonInnerStylingArea {
+    float: left;
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    outline: none;
+    background-color: #fff;
+    text-align: left;
+    text-decoration: none;
+    transition: all 0.3s ease 2ms;
+}
+
+.radioButtonContainer:hover>.radioButtonInnerStylingArea {
+    border: 1px solid #999;
+}
+
+
+/*There are some bugs to select input radio buttons*/
+
+.formElementsradioButtonInput:checked+span.radioButtonInnerStylingArea {
+    border: 1px solid #999;
+    -webkit-box-shadow: inset 0 0 0 3px #fff;
+    -moz-box-shadow: inset 0 0 0 3px #fff;
+    -o-box-shadow: inset 0 0 0 3px #fff;
+    -ms-box-shadow: inset 0 0 0 3px #fff;
+    box-shadow: inset 0 0 0 3px #fff;
+    background-color: #f90;
+}
+
+.radioButtonNexttoTextArea {
+    float: left;
+    margin: 0 auto;
+    padding: 0;
+    padding-left: 5px;
+    padding-right: 15px;
+    background-color: #fff;
+    outline: none;
+    border: none;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    line-height: 1.2;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .radioButtonNexttoTextArea {
+        font-size: 14px;
+        margin-top: 1px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .radioButtonNexttoTextArea {
+        font-size: 13px;
+        margin-top: 2px;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .radioButtonNexttoTextArea {
+        font-size: 12px;
+        margin-top: 2px;
+    }
+}
+
+
+/*For S devices */
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .radioButtonNexttoTextArea {
+        font-size: 12px;
+        margin-top: 2px;
+    }
+}
+
+
+/*For XS devices */
+
+@media screen and (max-width:575px) {
+    .radioButtonNexttoTextArea {
+        font-size: 12px;
+        margin-top: 2px;
+    }
+}
+
+.radioButtonNexttoTextArea a {
+    font-family: Arial, "Helvatica Neue", Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+    transition: all 0.3s ease 2ms;
+}
+
+.radioButtonNexttoTextArea a:link,
+.radioButtonNexttoTextArea a:active,
+.radioButtonNexttoTextArea a:visited {
+    font-family: Arial, "Helvatica Neue", Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.radioButtonNexttoTextArea a:hover {
+    font-family: Arial, "Helvatica Neue", Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
 }
