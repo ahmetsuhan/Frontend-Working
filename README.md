@@ -16,3 +16,5 @@ DESCRIPTION FOR FOLDER NAME:
 6-)Phone_6S --> This project target is creating imitation of Apple 6S Mobile phone. HTML,CSS and JS.
 
 7-)Card_Slider --> This project was made to improve some abilities such as using Object and arrow functions.
+
+8-)Mapty_App --> This project is simple activity that Cycling and Running time and location holder. The project use local storage to store data.
