@@ -18,3 +18,5 @@ DESCRIPTION FOR FOLDER NAME:
 7-)Card_Slider --> This project was made to improve some abilities such as using Object and arrow functions.
 
 8-)Mapty_App --> This project is simple activity that Cycling and Running time and location holder. The project use local storage to store data.
+
+9-)Auto Road Template --> This project is made by using Bootstrap, JS,HTML and this is template of rent a car web site.
