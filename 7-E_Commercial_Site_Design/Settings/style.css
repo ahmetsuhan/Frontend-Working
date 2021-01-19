@@ -6068,3 +6068,551 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
     text-decoration: none;
     transition: all 0.3s ease 2ms;
 }
+
+#allPAgeWindowAreaInnerShoppingCartLeftArea {
+    /*display: inline-block;*/
+    float: left;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: left;
+}
+
+
+/* XL devices*/
+
+@media screen and (min-width:1200px) {
+    #allPAgeWindowAreaInnerShoppingCartLeftArea {
+        width: -webkit-calc(100% - 260px);
+        width: -moz-calc(100% - 260px);
+        width: -o-calc(100% - 260px);
+        width: -ms-calc(100% - 260px);
+        width: calc(100% - 260px);
+        min-width: -webkit-calc(100% - 260px);
+        min-width: -moz-calc(100% - 260px);
+        min-width: -o-calc(100% - 260px);
+        min-width: -ms-calc(100% - 260px);
+        min-width: calc(100% - 260px);
+        max-width: -webkit-calc(100% - 260px);
+        max-width: -moz-calc(100% - 260px);
+        max-width: -o-calc(100% - 260px);
+        max-width: -ms-calc(100% - 260px);
+        max-width: calc(100% - 260px);
+        padding-right: 10px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    #allPAgeWindowAreaInnerShoppingCartLeftArea {
+        width: -webkit-calc(100% - 234px);
+        width: -moz-calc(100% - 234px);
+        width: -o-calc(100% - 234px);
+        width: -ms-calc(100% - 234px);
+        width: calc(100% - 234px);
+        min-width: -webkit-calc(100% - 234px);
+        min-width: -moz-calc(100% - 234px);
+        min-width: -o-calc(100% - 234px);
+        min-width: -ms-calc(100% - 234px);
+        min-width: calc(100% - 234px);
+        max-width: -webkit-calc(100% - 234px);
+        max-width: -moz-calc(100% - 234px);
+        max-width: -o-calc(100% - 234px);
+        max-width: -ms-calc(100% - 234px);
+        max-width: calc(100% - 234px);
+        padding-right: 9px;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    #allPAgeWindowAreaInnerShoppingCartLeftArea {
+        width: -webkit-calc(100% - 208px);
+        width: -moz-calc(100% - 208px);
+        width: -o-calc(100% - 208px);
+        width: -ms-calc(100% - 208px);
+        width: calc(100% - 208px);
+        min-width: -webkit-calc(100% - 208px);
+        min-width: -moz-calc(100% - 208px);
+        min-width: -o-calc(100% - 208px);
+        min-width: -ms-calc(100% - 208px);
+        min-width: calc(100% - 208px);
+        max-width: -webkit-calc(100% - 208px);
+        max-width: -moz-calc(100% - 208px);
+        max-width: -o-calc(100% - 208px);
+        max-width: -ms-calc(100% - 208px);
+        max-width: calc(100% - 208px);
+        padding-right: 8px;
+    }
+}
+
+
+/*For S, XS devices */
+
+@media screen and (max-width:767px) {
+    #allPAgeWindowAreaInnerShoppingCartLeftArea {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
+#allPAgeWindowAreaInnerShoppingCartRightArea {
+    /*display: inline-block;*/
+    float: right;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: left;
+}
+
+
+/* XL devices*/
+
+@media screen and (min-width:1200px) {
+    #allPAgeWindowAreaInnerShoppingCartRightArea {
+        width: -webkit-calc(250px - 10px);
+        width: -moz-calc(250px - 10px);
+        width: -o-calc(250px - 10px);
+        width: -ms-calc(250px - 10px);
+        width: calc(250px - 10px);
+        min-width: -webkit-calc(250px - 10px);
+        min-width: -moz-calc(250px - 10px);
+        min-width: -o-calc(250px - 10px);
+        min-width: -ms-calc(250px - 10px);
+        min-width: calc(250px - 10px);
+        max-width: -webkit-calc(250px - 10px);
+        max-width: -moz-calc(250px - 10px);
+        max-width: -o-calc(250px - 10px);
+        max-width: -ms-calc(250px - 10px);
+        max-width: calc(250px - 10px);
+        padding-left: 10px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    #allPAgeWindowAreaInnerShoppingCartRightArea {
+        width: -webkit-calc(225px - 9px);
+        width: -moz-calc(225px - 9px);
+        width: -o-calc(225px - 9px);
+        width: -ms-calc(225px - 9px);
+        width: calc(225px - 9px);
+        min-width: -webkit-calc(225px - 9px);
+        min-width: -moz-calc(225px - 9px);
+        min-width: -o-calc(225px - 9px);
+        min-width: -ms-calc(225px - 9px);
+        min-width: calc(225px - 9px);
+        max-width: -webkit-calc(225px - 9px);
+        max-width: -moz-calc(225px - 9px);
+        max-width: -o-calc(225px - 9px);
+        max-width: -ms-calc(225px - 9px);
+        max-width: calc(225px - 9px);
+        padding-left: 9px;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    #allPAgeWindowAreaInnerShoppingCartRightArea {
+        width: -webkit-calc(200px - 8px);
+        width: -moz-calc(200px - 8px);
+        width: -o-calc(200px - 8px);
+        width: -ms-calc(200px - 8px);
+        width: calc(200px - 8px);
+        min-width: -webkit-calc(200px - 8px);
+        min-width: -moz-calc(200px - 8px);
+        min-width: -o-calc(200px - 8px);
+        min-width: -ms-calc(200px - 8px);
+        min-width: calc(200px - 8px);
+        max-width: -webkit-calc(200px - 8px);
+        max-width: -moz-calc(200px - 8px);
+        max-width: -o-calc(200px - 8px);
+        max-width: -ms-calc(200px - 8px);
+        max-width: calc(200px - 8px);
+        padding-left: 8px;
+    }
+}
+
+
+/*For S devices */
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    #allPAgeWindowAreaInnerShoppingCartRightArea {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        padding-top: 20px;
+    }
+}
+
+
+/*For XS devices */
+
+@media screen and (max-width:575px) {
+    #allPAgeWindowAreaInnerShoppingCartRightArea {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        padding-top: 10px;
+    }
+}
+
+.allPAgeWindowAreaInnerShoppingCartUnderlineHeaderArea {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    outline: none;
+    background-color: #fff;
+    text-align: left;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .allPAgeWindowAreaInnerShoppingCartUnderlineHeaderArea {
+        padding-bottom: 20px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .allPAgeWindowAreaInnerShoppingCartUnderlineHeaderArea {
+        padding-bottom: 18px;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .allPAgeWindowAreaInnerShoppingCartUnderlineHeaderArea {
+        padding-bottom: 16px;
+    }
+}
+
+
+/*For S devices */
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .allPAgeWindowAreaInnerShoppingCartUnderlineHeaderArea {
+        padding-bottom: 14px;
+    }
+}
+
+
+/*For XS devices */
+
+@media screen and (max-width:575px) {
+    .allPAgeWindowAreaInnerShoppingCartUnderlineHeaderArea {
+        padding-bottom: 12px;
+    }
+}
+
+.allPAgeWindowAreaInnerShoppingCartUnderlineHeaderAreaTopHeaderText {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #f90;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 120%;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .allPAgeWindowAreaInnerShoppingCartUnderlineHeaderAreaTopHeaderText {
+        font-size: 18px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .allPAgeWindowAreaInnerShoppingCartUnderlineHeaderAreaTopHeaderText {
+        font-size: 16px;
+    }
+}
+
+
+/*For M,S,XS devices */
+
+@media screen and (max-width:991px) {
+    .allPAgeWindowAreaInnerShoppingCartUnderlineHeaderAreaTopHeaderText {
+        font-size: 14px;
+    }
+}
+
+.allPAgeWindowAreaInnerShoppingCartUnderlineHeaderAreaBottomHeaderText {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 120%;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .allPAgeWindowAreaInnerShoppingCartUnderlineHeaderAreaBottomHeaderText {
+        font-size: 14px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .allPAgeWindowAreaInnerShoppingCartUnderlineHeaderAreaBottomHeaderText {
+        font-size: 13px;
+    }
+}
+
+
+/*For M,S,XS devices */
+
+@media screen and (max-width:991px) {
+    .allPAgeWindowAreaInnerShoppingCartUnderlineHeaderAreaBottomHeaderText {
+        font-size: 12px;
+    }
+}
+
+.allPAgeWindowAreaInnerShoppingCartUnderlineRightHeaderArea {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    outline: none;
+    background-color: #fff;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .allPAgeWindowAreaInnerShoppingCartUnderlineRightHeaderArea {
+        font-size: 18px;
+        text-align: right;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .allPAgeWindowAreaInnerShoppingCartUnderlineRightHeaderArea {
+        font-size: 16px;
+        text-align: right;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .allPAgeWindowAreaInnerShoppingCartUnderlineRightHeaderArea {
+        text-align: right;
+    }
+}
+
+
+/*For S devices */
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .allPAgeWindowAreaInnerShoppingCartUnderlineRightHeaderArea {
+        text-align: center;
+    }
+}
+
+
+/*For XS devices */
+
+@media screen and (max-width:575px) {
+    .allPAgeWindowAreaInnerShoppingCartUnderlineRightHeaderArea {
+        text-align: center;
+    }
+}
+
+.allPAgeWindowAreaInnerShoppingCartUnderlineRightHeaderAreaTopHeaderText {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #f90;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 120%;
+    text-decoration: none;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .allPAgeWindowAreaInnerShoppingCartUnderlineRightHeaderAreaTopHeaderText {
+        font-size: 18px;
+        text-align: right;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .allPAgeWindowAreaInnerShoppingCartUnderlineRightHeaderAreaTopHeaderText {
+        font-size: 16px;
+        text-align: right;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .allPAgeWindowAreaInnerShoppingCartUnderlineRightHeaderAreaTopHeaderText {
+        font-size: 14px;
+        text-align: right;
+    }
+}
+
+
+/*For S, XS devices */
+
+@media screen and (max-width:767px) {
+    .allPAgeWindowAreaInnerShoppingCartUnderlineRightHeaderAreaTopHeaderText {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+.allPAgeWindowAreaInnerShoppingCartUnderlineRightHeaderAreaBottomHeaderText {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 120%;
+    text-decoration: none;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .allPAgeWindowAreaInnerShoppingCartUnderlineRightHeaderAreaBottomHeaderText {
+        font-size: 14px;
+        text-align: right;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .allPAgeWindowAreaInnerShoppingCartUnderlineRightHeaderAreaBottomHeaderText {
+        font-size: 13px;
+        text-align: right;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .allPAgeWindowAreaInnerShoppingCartUnderlineRightHeaderAreaBottomHeaderText {
+        font-size: 12px;
+        text-align: right;
+    }
+}
+
+
+/*For S, XS devices */
+
+@media screen and (max-width:767px) {
+    .allPAgeWindowAreaInnerShoppingCartUnderlineRightHeaderAreaBottomHeaderText {
+        font-size: 12px;
+        text-align: center;
+    }
+}
