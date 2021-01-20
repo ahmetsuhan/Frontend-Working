@@ -6616,3 +6616,629 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
         text-align: center;
     }
 }
+
+.allPAgeWindowAreaInnerShoppingCartPageProductsArea {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    border-bottom: 1px dashed #ddd;
+    outline: none;
+    background-color: #fff;
+    text-align: left;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .allPAgeWindowAreaInnerShoppingCartPageProductsArea {
+        /*font-size: 18px;*/
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .allPAgeWindowAreaInnerShoppingCartPageProductsArea {
+        /* font-size: 16px;*/
+        padding-top: 9px;
+        padding-bottom: 9px;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .allPAgeWindowAreaInnerShoppingCartPageProductsArea {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+}
+
+
+/*For S devices */
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .allPAgeWindowAreaInnerShoppingCartPageProductsArea {
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+}
+
+
+/*For XS devices */
+
+@media screen and (max-width:575px) {
+    .allPAgeWindowAreaInnerShoppingCartPageProductsArea {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+}
+
+.allPAgeWindowAreaInnerShoppingCartPageProductImageArea {
+    /*display: inline-block;*/
+    float: left;
+    /*my product image size 128x128 */
+    width: 128px;
+    min-width: 128px;
+    max-width: 128px;
+    height: 128px;
+    min-height: 128px;
+    max-height: 128px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: left;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .allPAgeWindowAreaInnerShoppingCartPageProductImageArea {
+        margin-right: 10px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .allPAgeWindowAreaInnerShoppingCartPageProductImageArea {
+        margin-right: 9px;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .allPAgeWindowAreaInnerShoppingCartPageProductImageArea {
+        margin-right: 8px;
+    }
+}
+
+
+/*For S devices */
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .allPAgeWindowAreaInnerShoppingCartPageProductImageArea {
+        margin-right: 7px;
+    }
+}
+
+
+/*For XS devices */
+
+@media screen and (max-width:575px) {
+    .allPAgeWindowAreaInnerShoppingCartPageProductImageArea {
+        margin-right: 6px;
+    }
+}
+
+.allPAgeWindowAreaInnerShoppingCartPageProductImageArea img {
+    display: block;
+    float: left;
+    width: 128px;
+    min-width: 128px;
+    max-width: 128px;
+    height: 128px;
+    min-height: 128px;
+    max-height: 128px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+}
+
+.allPAgeWindowAreaInnerShoppingCartPageProductDeleteImageArea {
+    /*display: inline-block;*/
+    float: left;
+    /*my delete icon size  16x16 but my icon area's height will be qual size with my product iamge so icon area height is 128px selected by me*/
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 128px;
+    min-height: 128px;
+    max-height: 128px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: left;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .allPAgeWindowAreaInnerShoppingCartPageProductDeleteImageArea {
+        margin-right: 10px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .allPAgeWindowAreaInnerShoppingCartPageProductDeleteImageArea {
+        margin-right: 9px;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .allPAgeWindowAreaInnerShoppingCartPageProductDeleteImageArea {
+        margin-right: 8px;
+    }
+}
+
+
+/*For S devices */
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .allPAgeWindowAreaInnerShoppingCartPageProductDeleteImageArea {
+        margin-right: 7px;
+    }
+}
+
+
+/*For XS devices */
+
+@media screen and (max-width:575px) {
+    .allPAgeWindowAreaInnerShoppingCartPageProductDeleteImageArea {
+        margin-right: 6px;
+    }
+}
+
+.allPAgeWindowAreaInnerShoppingCartPageProductDeleteImageArea img {
+    display: block;
+    float: left;
+    /*my cancel or delete icon size is 16x16px so i choose both width and height of them are 16px. */
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    /*If i want to my delete icon replaced in the center of my area, I need to calculate some height value to move my icon to center.=> (128px;(area height) - 16px(icon height))/2+ ((1px(border)+1px(border))/2) = 57px */
+    margin-top: 57px;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.allPAgeWindowAreaInnerShoppingCartPageProductNameArea {
+    float: left;
+    height: 128px;
+    min-height: 128px;
+    max-height: 128px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: left;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    line-height: 1.2;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .allPAgeWindowAreaInnerShoppingCartPageProductNameArea {
+        width: -webkit-calc(100% - 295px);
+        width: -moz-calc(100% - 295px);
+        width: -o-calc(100% - 295px);
+        width: -ms-calc(100% - 295px);
+        width: calc(100% - 295px);
+        min-width: -webkit-calc(100% - 295px);
+        min-width: -moz-calc(100% - 295px);
+        min-width: -o-calc(100% - 295px);
+        min-width: -ms-calc(100% - 295px);
+        min-width: calc(100% - 295px);
+        max-width: -webkit-calc(100% - 295px);
+        max-width: -moz-calc(100% - 295px);
+        max-width: -o-calc(100% - 295px);
+        max-width: -ms-calc(100% - 295px);
+        max-width: calc(100% - 295px);
+        margin-right: 10px;
+        /*I have given a line-height as a 128px to move text to center */
+        line-height: 128px;
+        font-size: 14px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .allPAgeWindowAreaInnerShoppingCartPageProductNameArea {
+        width: -webkit-calc(100% - 281px);
+        width: -moz-calc(100% - 281px);
+        width: -o-calc(100% - 281px);
+        width: -ms-calc(100% - 281px);
+        width: calc(100% - 281px);
+        min-width: -webkit-calc(100% - 281px);
+        min-width: -moz-calc(100% - 281px);
+        min-width: -o-calc(100% - 281px);
+        min-width: -ms-calc(100% - 281px);
+        min-width: calc(100% - 281px);
+        max-width: -webkit-calc(100% - 281px);
+        max-width: -moz-calc(100% - 281px);
+        max-width: -o-calc(100% - 281px);
+        max-width: -ms-calc(100% - 281px);
+        max-width: calc(100% - 281px);
+        margin-right: 9px;
+        /*I have given a line-height as a 128px to move text to center */
+        line-height: 128px;
+        font-size: 13px;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .allPAgeWindowAreaInnerShoppingCartPageProductNameArea {
+        width: -webkit-calc(100% - 267px);
+        width: -moz-calc(100% - 267px);
+        width: -o-calc(100% - 267px);
+        width: -ms-calc(100% - 267px);
+        width: calc(100% - 267px);
+        min-width: -webkit-calc(100% - 267px);
+        min-width: -moz-calc(100% - 267px);
+        min-width: -o-calc(100% - 267px);
+        min-width: -ms-calc(100% - 267px);
+        min-width: calc(100% - 267px);
+        max-width: -webkit-calc(100% - 267px);
+        max-width: -moz-calc(100% - 267px);
+        max-width: -o-calc(100% - 267px);
+        max-width: -ms-calc(100% - 267px);
+        max-width: calc(100% - 267px);
+        margin-right: 8px;
+        /*I have given a line-height as a 128px to move text to center */
+        line-height: 128px;
+        font-size: 12px;
+    }
+}
+
+
+/*For S,XS devices */
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .allPAgeWindowAreaInnerShoppingCartPageProductNameArea {
+        width: -webkit-calc(100% - 96px);
+        width: -moz-calc(100% - 96px);
+        width: -o-calc(100% - 96px);
+        width: -ms-calc(100% - 96px);
+        width: calc(100% - 96px);
+        min-width: -webkit-calc(100% - 96px);
+        min-width: -moz-calc(100% - 96px);
+        min-width: -o-calc(100% - 96px);
+        min-width: -ms-calc(100% - 96px);
+        min-width: calc(100% - 96px);
+        max-width: -webkit-calc(100% - 96px);
+        max-width: -moz-calc(100% - 96px);
+        max-width: -o-calc(100% - 96px);
+        max-width: -ms-calc(100% - 96px);
+        max-width: calc(100% - 96px);
+        /*I have given a line-height as a 64px to move text to center */
+        line-height: 64px;
+        font-size: 12px;
+    }
+}
+
+.allPAgeWindowAreaInnerShoppingCartPageProductCountArea {
+    /*display: inline-block;*/
+    float: left;
+    height: 128px;
+    min-height: 128px;
+    max-height: 128px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+    line-height: 128px;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .allPAgeWindowAreaInnerShoppingCartPageProductCountArea {
+        /*Estimated width value given below is choosed 67px*/
+        width: 67px;
+        min-width: 67px;
+        max-width: 67px;
+        margin-right: 10px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .allPAgeWindowAreaInnerShoppingCartPageProductCountArea {
+        /*Estimated width value given below is choosed 62px*/
+        width: 62px;
+        min-width: 62px;
+        max-width: 62px;
+        margin-right: 9px;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .allPAgeWindowAreaInnerShoppingCartPageProductCountArea {
+        /*Estimated width value given below is choosed 57px*/
+        width: 57px;
+        min-width: 57px;
+        max-width: 57px;
+        margin-right: 8px;
+    }
+}
+
+
+/*For S,XS devices */
+
+@media screen and (max-width:767px) {
+    .allPAgeWindowAreaInnerShoppingCartPageProductCountArea {
+        /*Estimated width value given below is choosed 57px*/
+        width: 57px;
+        min-width: 57px;
+        max-width: 57px;
+        margin-right: 8px;
+    }
+}
+
+.allPAgeWindowAreaInnerShoppingCartPageProductCountAndProcessArea {
+    display: inline-block;
+    height: 32px;
+    min-height: 32px;
+    max-height: 32px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    line-height: 1.2;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .allPAgeWindowAreaInnerShoppingCartPageProductCountAndProcessArea {
+        /*Estimated width value given below is choosed 67px*/
+        width: 67px;
+        min-width: 67px;
+        max-width: 67px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .allPAgeWindowAreaInnerShoppingCartPageProductCountAndProcessArea {
+        /*Estimated width value given below is choosed 62px*/
+        width: 62px;
+        min-width: 62px;
+        max-width: 62px;
+    }
+}
+
+
+/*For M, S, XS devices */
+
+@media screen and (max-width:991px) {
+    .allPAgeWindowAreaInnerShoppingCartPageProductCountAndProcessArea {
+        /*Estimated width value given below is choosed 57px*/
+        width: 57px;
+        min-width: 57px;
+        max-width: 57px;
+    }
+}
+
+.allPAgeWindowAreaInnerShoppingCartPageProductCountDecreaseArea {
+    /*display: inline-block;*/
+    float: left;
+    /*my cancel icon's size 16x16 so i give width value  16px*/
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: left;
+    vertical-align: top;
+}
+
+.allPAgeWindowAreaInnerShoppingCartPageProductCountDecreaseArea img {
+    display: block;
+    float: left;
+    /*image size 16x16px */
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    /*sonradan bak */
+    /*margin-top: 57px;*/
+    padding: 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.allPAgeWindowAreaInnerShoppingCartPageProductCountDigitArea {
+    /*display: inline-block;*/
+    float: left;
+    /*sonradan bak */
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    line-height: 1.2;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: top;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .allPAgeWindowAreaInnerShoppingCartPageProductCountDigitArea {
+        width: 32px;
+        min-width: 32px;
+        max-width: 32px;
+        padding-top: 1px;
+        font-size: 14px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .allPAgeWindowAreaInnerShoppingCartPageProductCountDigitArea {
+        width: 27px;
+        min-width: 27px;
+        max-width: 27px;
+        padding-top: 2px;
+        font-size: 13px;
+    }
+}
+
+
+/*For M,S,XS devices */
+
+@media screen and (max-width:991px) {
+    .allPAgeWindowAreaInnerShoppingCartPageProductCountDigitArea {
+        width: 22px;
+        min-width: 22px;
+        max-width: 22px;
+        padding-top: 3px;
+        font-size: 12px;
+    }
+}
+
+
+/*Artırma alanı  */
+
+.allPAgeWindowAreaInnerShoppingCartPageProductCountIncreaseArea {
+    /*display: inline-block;*/
+    float: left;
+    /*my cancel icon's size 16x16 so i give width value  16px*/
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: left;
+    vertical-align: top;
+}
+
+.allPAgeWindowAreaInnerShoppingCartPageProductCountIncreaseArea img {
+    display: block;
+    float: left;
+    /*image size 16x16px */
+    width: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin: 0 auto;
+    /*sonradan bak */
+    /*margin-top: 57px;*/
+    padding: 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
