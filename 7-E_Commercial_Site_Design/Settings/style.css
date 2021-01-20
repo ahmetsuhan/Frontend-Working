@@ -6849,11 +6849,11 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
     cursor: pointer;
 }
 
+
+/*buradayım */
+
 .allPAgeWindowAreaInnerShoppingCartPageProductNameArea {
     float: left;
-    height: 128px;
-    min-height: 128px;
-    max-height: 128px;
     margin: 0 auto;
     padding: 0;
     overflow: hidden;
@@ -6863,7 +6863,6 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
     text-align: left;
     font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
     color: #646464;
-    line-height: 1.2;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
@@ -6875,21 +6874,24 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
 
 @media screen and (min-width:1200px) {
     .allPAgeWindowAreaInnerShoppingCartPageProductNameArea {
-        width: -webkit-calc(100% - 295px);
-        width: -moz-calc(100% - 295px);
-        width: -o-calc(100% - 295px);
-        width: -ms-calc(100% - 295px);
-        width: calc(100% - 295px);
-        min-width: -webkit-calc(100% - 295px);
-        min-width: -moz-calc(100% - 295px);
-        min-width: -o-calc(100% - 295px);
-        min-width: -ms-calc(100% - 295px);
-        min-width: calc(100% - 295px);
-        max-width: -webkit-calc(100% - 295px);
-        max-width: -moz-calc(100% - 295px);
-        max-width: -o-calc(100% - 295px);
-        max-width: -ms-calc(100% - 295px);
-        max-width: calc(100% - 295px);
+        width: -webkit-calc(100% - 345px);
+        width: -moz-calc(100% - 345px);
+        width: -o-calc(100% - 345px);
+        width: -ms-calc(100% - 345px);
+        width: calc(100% - 345px);
+        min-width: -webkit-calc(100% - 345px);
+        min-width: -moz-calc(100% - 345px);
+        min-width: -o-calc(100% - 345px);
+        min-width: -ms-calc(100% - 345px);
+        min-width: calc(100% - 345px);
+        max-width: -webkit-calc(100% - 345px);
+        max-width: -moz-calc(100% - 345px);
+        max-width: -o-calc(100% - 345px);
+        max-width: -ms-calc(100% - 345px);
+        max-width: calc(100% - 345px);
+        height: 128px;
+        min-height: 128px;
+        max-height: 128px;
         margin-right: 10px;
         /*I have given a line-height as a 128px to move text to center */
         line-height: 128px;
@@ -6902,25 +6904,29 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
 
 @media screen and (min-width:992px) and (max-width:1199px) {
     .allPAgeWindowAreaInnerShoppingCartPageProductNameArea {
-        width: -webkit-calc(100% - 281px);
-        width: -moz-calc(100% - 281px);
-        width: -o-calc(100% - 281px);
-        width: -ms-calc(100% - 281px);
-        width: calc(100% - 281px);
-        min-width: -webkit-calc(100% - 281px);
-        min-width: -moz-calc(100% - 281px);
-        min-width: -o-calc(100% - 281px);
-        min-width: -ms-calc(100% - 281px);
-        min-width: calc(100% - 281px);
-        max-width: -webkit-calc(100% - 281px);
-        max-width: -moz-calc(100% - 281px);
-        max-width: -o-calc(100% - 281px);
-        max-width: -ms-calc(100% - 281px);
-        max-width: calc(100% - 281px);
+        width: -webkit-calc(100% - 331px);
+        width: -moz-calc(100% - 331px);
+        width: -o-calc(100% - 331px);
+        width: -ms-calc(100% - 331px);
+        width: calc(100% - 331px);
+        min-width: -webkit-calc(100% - 331px);
+        min-width: -moz-calc(100% - 331px);
+        min-width: -o-calc(100% - 331px);
+        min-width: -ms-calc(100% - 331px);
+        min-width: calc(100% - 331px);
+        max-width: -webkit-calc(100% - 331px);
+        max-width: -moz-calc(100% - 331px);
+        max-width: -o-calc(100% - 331px);
+        max-width: -ms-calc(100% - 331px);
+        max-width: calc(100% - 331px);
+        height: 128px;
+        min-height: 128px;
+        max-height: 128px;
         margin-right: 9px;
         /*I have given a line-height as a 128px to move text to center */
         line-height: 128px;
         font-size: 13px;
+        padding-top: 1px;
     }
 }
 
@@ -6929,21 +6935,24 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
 
 @media screen and (min-width:768px) and (max-width:991px) {
     .allPAgeWindowAreaInnerShoppingCartPageProductNameArea {
-        width: -webkit-calc(100% - 267px);
-        width: -moz-calc(100% - 267px);
-        width: -o-calc(100% - 267px);
-        width: -ms-calc(100% - 267px);
-        width: calc(100% - 267px);
-        min-width: -webkit-calc(100% - 267px);
-        min-width: -moz-calc(100% - 267px);
-        min-width: -o-calc(100% - 267px);
-        min-width: -ms-calc(100% - 267px);
-        min-width: calc(100% - 267px);
-        max-width: -webkit-calc(100% - 267px);
-        max-width: -moz-calc(100% - 267px);
-        max-width: -o-calc(100% - 267px);
-        max-width: -ms-calc(100% - 267px);
-        max-width: calc(100% - 267px);
+        width: -webkit-calc(100% - 317px);
+        width: -moz-calc(100% - 317px);
+        width: -o-calc(100% - 317px);
+        width: -ms-calc(100% - 317px);
+        width: calc(100% - 317px);
+        min-width: -webkit-calc(100% - 317px);
+        min-width: -moz-calc(100% - 317px);
+        min-width: -o-calc(100% - 317px);
+        min-width: -ms-calc(100% - 317px);
+        min-width: calc(100% - 317px);
+        max-width: -webkit-calc(100% - 317px);
+        max-width: -moz-calc(100% - 317px);
+        max-width: -o-calc(100% - 317px);
+        max-width: -ms-calc(100% - 317px);
+        max-width: calc(100% - 317px);
+        height: 128px;
+        min-height: 128px;
+        max-height: 128px;
         margin-right: 8px;
         /*I have given a line-height as a 128px to move text to center */
         line-height: 128px;
@@ -6954,23 +6963,26 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
 
 /*For S,XS devices */
 
-@media screen and (min-width:576px) and (max-width:767px) {
+@media screen and (max-width:767px) {
     .allPAgeWindowAreaInnerShoppingCartPageProductNameArea {
-        width: -webkit-calc(100% - 96px);
-        width: -moz-calc(100% - 96px);
-        width: -o-calc(100% - 96px);
-        width: -ms-calc(100% - 96px);
-        width: calc(100% - 96px);
-        min-width: -webkit-calc(100% - 96px);
-        min-width: -moz-calc(100% - 96px);
-        min-width: -o-calc(100% - 96px);
-        min-width: -ms-calc(100% - 96px);
-        min-width: calc(100% - 96px);
-        max-width: -webkit-calc(100% - 96px);
-        max-width: -moz-calc(100% - 96px);
-        max-width: -o-calc(100% - 96px);
-        max-width: -ms-calc(100% - 96px);
-        max-width: calc(100% - 96px);
+        width: -webkit-calc(100% - 146px);
+        width: -moz-calc(100% - 146px);
+        width: -o-calc(100% - 146px);
+        width: -ms-calc(100% - 146px);
+        width: calc(100% - 146px);
+        min-width: -webkit-calc(100% - 146px);
+        min-width: -moz-calc(100% - 146px);
+        min-width: -o-calc(100% - 146px);
+        min-width: -ms-calc(100% - 146px);
+        min-width: calc(100% - 146px);
+        max-width: -webkit-calc(100% - 146px);
+        max-width: -moz-calc(100% - 146px);
+        max-width: -o-calc(100% - 146px);
+        max-width: -ms-calc(100% - 146px);
+        max-width: calc(100% - 146px);
+        height: 64px;
+        min-height: 64px;
+        max-height: 64px;
         /*I have given a line-height as a 64px to move text to center */
         line-height: 64px;
         font-size: 12px;
@@ -6978,11 +6990,7 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
 }
 
 .allPAgeWindowAreaInnerShoppingCartPageProductCountArea {
-    /*display: inline-block;*/
-    float: left;
-    height: 128px;
-    min-height: 128px;
-    max-height: 128px;
+    display: inline-block;
     margin: 0 auto;
     padding: 0;
     overflow: hidden;
@@ -6992,7 +7000,6 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
     text-align: left;
     text-decoration: none;
     vertical-align: top;
-    line-height: 128px;
 }
 
 
@@ -7004,6 +7011,11 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
         width: 67px;
         min-width: 67px;
         max-width: 67px;
+        float: left;
+        height: 128px;
+        min-height: 128px;
+        max-height: 128px;
+        line-height: 128px;
         margin-right: 10px;
     }
 }
@@ -7017,6 +7029,11 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
         width: 62px;
         min-width: 62px;
         max-width: 62px;
+        float: left;
+        height: 128px;
+        min-height: 128px;
+        max-height: 128px;
+        line-height: 128px;
         margin-right: 9px;
     }
 }
@@ -7030,6 +7047,11 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
         width: 57px;
         min-width: 57px;
         max-width: 57px;
+        float: left;
+        height: 128px;
+        min-height: 128px;
+        max-height: 128px;
+        line-height: 128px;
         margin-right: 8px;
     }
 }
@@ -7043,22 +7065,27 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
         width: 57px;
         min-width: 57px;
         max-width: 57px;
+        float: right;
+        height: 64px;
+        min-height: 64px;
+        max-height: 64px;
+        line-height: 64px;
         margin-right: 8px;
     }
 }
 
 .allPAgeWindowAreaInnerShoppingCartPageProductCountAndProcessArea {
     display: inline-block;
-    height: 32px;
-    min-height: 32px;
-    max-height: 32px;
+    height: 16px;
+    min-height: 16px;
+    max-height: 16px;
     margin: 0 auto;
     padding: 0;
     overflow: hidden;
     border: none;
     outline: none;
     background-color: #fff;
-    line-height: 1.2;
+    line-height: 16px;
     text-align: center;
     vertical-align: middle;
 }
@@ -7117,6 +7144,7 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
     background-color: #fff;
     text-align: left;
     vertical-align: top;
+    line-height: 16px;
 }
 
 .allPAgeWindowAreaInnerShoppingCartPageProductCountDecreaseArea img {
@@ -7153,7 +7181,7 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
     background-color: #fff;
     font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
     color: #646464;
-    line-height: 1.2;
+    line-height: 16px;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
@@ -7170,7 +7198,7 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
         width: 32px;
         min-width: 32px;
         max-width: 32px;
-        padding-top: 1px;
+        /*padding-top: 1px;*/
         font-size: 14px;
     }
 }
@@ -7183,7 +7211,7 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
         width: 27px;
         min-width: 27px;
         max-width: 27px;
-        padding-top: 2px;
+        padding-top: 1px;
         font-size: 13px;
     }
 }
@@ -7196,7 +7224,7 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
         width: 22px;
         min-width: 22px;
         max-width: 22px;
-        padding-top: 3px;
+        padding-top: 1px;
         font-size: 12px;
     }
 }
@@ -7222,6 +7250,7 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
     background-color: #fff;
     text-align: left;
     vertical-align: top;
+    line-height: 16px;
 }
 
 .allPAgeWindowAreaInnerShoppingCartPageProductCountIncreaseArea img {
@@ -7241,4 +7270,103 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
     border: none;
     outline: none;
     cursor: pointer;
+}
+
+.allPAgeWindowAreaInnerShoppingCartPagePriceArea {
+    /*display: inline-block;*/
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    overflow: hidden;
+    outline: none;
+    background-color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .allPAgeWindowAreaInnerShoppingCartPagePriceArea {
+        float: left;
+        width: 90px;
+        min-width: 90px;
+        max-width: 90px;
+        height: 128px;
+        min-height: 128px;
+        max-height: 128px;
+        /*I have given a line-height as a 128px to move text to center */
+        line-height: 128px;
+        font-size: 14px;
+        text-align: right;
+        padding-top: 1px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .allPAgeWindowAreaInnerShoppingCartPagePriceArea {
+        float: left;
+        width: 85px;
+        min-width: 85px;
+        max-width: 85px;
+        height: 128px;
+        min-height: 128px;
+        max-height: 128px;
+        /*I have given a line-height as a 128px to move text to center */
+        line-height: 128px;
+        font-size: 13px;
+        text-align: right;
+        padding-top: 1px;
+    }
+}
+
+
+/*For M devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .allPAgeWindowAreaInnerShoppingCartPagePriceArea {
+        float: left;
+        width: 80px;
+        min-width: 80px;
+        max-width: 80px;
+        height: 128px;
+        min-height: 128px;
+        max-height: 128px;
+        /*I have given a line-height as a 128px to move text to center */
+        line-height: 128px;
+        font-size: 12px;
+        text-align: right;
+    }
+}
+
+
+/*For S,XS devices */
+
+@media screen and (max-width:767px) {
+    .allPAgeWindowAreaInnerShoppingCartPagePriceArea {
+        float: right;
+        /*75px */
+        width: 57px;
+        /*75px */
+        min-width: 57px;
+        /*75px */
+        max-width: 57px;
+        height: 62px;
+        min-height: 62px;
+        max-height: 62px;
+        /*I have given a line-height as a 128px to move text to center */
+        line-height: 64px;
+        font-size: 12px;
+        margin-top: 2px;
+        text-align: left;
+    }
 }
