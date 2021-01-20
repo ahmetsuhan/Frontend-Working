@@ -20,3 +20,5 @@ DESCRIPTION FOR FOLDER NAME:
 8-)Mapty_App --> This project is simple activity that Cycling and Running time and location holder. The project use local storage to store data.
 
 9-)Auto Road Template --> This project is made by using Bootstrap, JS,HTML and this is template of rent a car web site.
+
+10-)Quiz_App --> this project is made by using Bootstrap and VanillaJs. It is simple question app. 
