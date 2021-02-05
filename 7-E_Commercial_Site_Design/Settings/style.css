@@ -8110,3 +8110,166 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
         font-size: 12px;
     }
 }
+
+.allPAgeWindowAreaInnerShoppingCartIncomeAndDeliveryAdressesInfoNewAddressAddArea {
+    display: block;
+    width: -webkit-calc(100% - 10px);
+    width: -moz-calc(100% - 10px);
+    width: -o-calc(100% - 10px);
+    width: -ms-calc(100% - 10px);
+    width: calc(100% - 10px);
+    min-width: -webkit-calc(100% - 10px);
+    min-width: -moz-calc(100% - 10px);
+    min-width: -o-calc(100% - 10px);
+    min-width: -ms-calc(100% - 10px);
+    min-width: calc(100% - 10px);
+    max-width: -webkit-calc(100% - 10px);
+    max-width: -moz-calc(100% - 10px);
+    max-width: -o-calc(100% - 10px);
+    max-width: -ms-calc(100% - 10px);
+    max-width: calc(100% - 10px);
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    padding-left: 4px;
+    padding-right: 4px;
+    overflow: hidden;
+    border: none;
+    border: 1px solid #f1f1f1;
+    outline: none;
+    background-color: #f9f9f9;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    line-height: 1.2;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out 2ms;
+    ;
+    /*vertical-align:top;*/
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .allPAgeWindowAreaInnerShoppingCartIncomeAndDeliveryAdressesInfoNewAddressAddArea {
+        font-size: 14px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .allPAgeWindowAreaInnerShoppingCartIncomeAndDeliveryAdressesInfoNewAddressAddArea {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        font-size: 13px;
+    }
+}
+
+
+/*For M, S, XS devices */
+
+@media screen and (max-width:991px) {
+    .allPAgeWindowAreaInnerShoppingCartIncomeAndDeliveryAdressesInfoNewAddressAddArea {
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font-size: 12px;
+    }
+}
+
+.allPAgeWindowAreaInnerShoppingCartIncomeAndDeliveryAdressesInfoNewAddressAddArea:hover {
+    border: 1px solid #f90;
+}
+
+.allPAgeWindowAreaInnerShoppingCartIncomeAndDeliveryAdressesInfoNewAddressAddText {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    padding-left: 4px;
+    padding-right: 4px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #f9f9f9;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    line-height: 1.2;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+    /*vertical-align:top;*/
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .allPAgeWindowAreaInnerShoppingCartIncomeAndDeliveryAdressesInfoNewAddressAddText {
+        font-size: 14px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .allPAgeWindowAreaInnerShoppingCartIncomeAndDeliveryAdressesInfoNewAddressAddText {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        font-size: 13px;
+    }
+}
+
+
+/*For M, S, XS devices */
+
+@media screen and (max-width:991px) {
+    .allPAgeWindowAreaInnerShoppingCartIncomeAndDeliveryAdressesInfoNewAddressAddText {
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font-size: 12px;
+    }
+}
+
+.allPAgeWindowAreaInnerShoppingCartIncomesArea a {
+    font-family: Arial, "Helvatica Neue", Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+    transition: all 0.3s ease 2ms;
+}
+
+.allPAgeWindowAreaInnerShoppingCartIncomesArea a:link,
+.allPAgeWindowAreaInnerShoppingCartIncomesArea a:active,
+.allPAgeWindowAreaInnerShoppingCartIncomesArea a:visited {
+    font-family: Arial, "Helvatica Neue", Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.allPAgeWindowAreaInnerShoppingCartIncomesArea a:hover {
+    font-family: Arial, "Helvatica Neue", Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
