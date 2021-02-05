@@ -8065,4 +8065,48 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
     max-width: -o-calc(100% - 10px);
     max-width: -ms-calc(100% - 10px);
     max-width: calc(100% - 10px);
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    padding: 10px 5px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #f1f1f1;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    line-height: 1.2;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+    /*vertical-align:top;*/
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .allPAgeWindowAreaInnerShoppingCartIncomeAndDeliveryAdressesInfoArea {
+        font-size: 14px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .allPAgeWindowAreaInnerShoppingCartIncomeAndDeliveryAdressesInfoArea {
+        font-size: 13px;
+    }
+}
+
+
+/*For M, S, XS devices */
+
+@media screen and (max-width:991px) {
+    .allPAgeWindowAreaInnerShoppingCartIncomeAndDeliveryAdressesInfoArea {
+        font-size: 12px;
+    }
 }
