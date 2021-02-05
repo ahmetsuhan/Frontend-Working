@@ -8322,7 +8322,7 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
 }
 
 
-/* Radio button styling*/
+/* Radio button styling have bugs fix it */
 
 .allPAgeWindowAreaInnerShoppingCartIncomeAndDeliveryAdressesInfoRadioButtonArea {
     display: block;
@@ -8408,7 +8408,7 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
     border: 1px solid #999;
 }
 
-.allPAgeWindowAreaInnerShoppingCartIncomeAndDeliveryAdressesInfoRadioButtonInputs:checked+span.allPAgeWindowAreaInnerShoppingCartIncomeAndDeliveryAdressesInfoRadioButtonStylingArea {
+.allPAgeWindowAreaInnerShoppingCartIncomeAndDeliveryAdressesInfoRadioButtonInputs:checked+span .allPAgeWindowAreaInnerShoppingCartIncomeAndDeliveryAdressesInfoRadioButtonStylingArea {
     border: 1px solid #999;
     -webkit-box-shadow: inset 0 0 0 3px #fff;
     -moz-box-shadow: inset 0 0 0 3px #fff;
@@ -8416,4 +8416,97 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
     -ms-box-shadow: inset 0 0 0 3px #fff;
     box-shadow: inset 0 0 0 3px #fff;
     background-color: #f90;
+}
+
+.allPAgeWindowAreaInnerShoppingCartIncomeAndDeliveryAdressDetailsArea {
+    display: inline-block;
+    float: left;
+    height: auto;
+    padding: 0;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    background-color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvatica, sans-serif;
+    color: #646464;
+    line-height: 1.2;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-align: left;
+    text-decoration: none;
+    /*vertical-align: top;*/
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .allPAgeWindowAreaInnerShoppingCartIncomeAndDeliveryAdressDetailsArea {
+        font-size: 14px;
+        width: -webkit-calc(100% - 30px);
+        width: -moz-calc(100% - 30px);
+        width: -o-calc(100% - 30px);
+        width: -ms-calc(100% - 30px);
+        width: calc(100% - 30px);
+        min-width: -webkit-calc(100% - 30px);
+        min-width: -moz-calc(100% - 30px);
+        min-width: -o-calc(100% - 30px);
+        min-width: -ms-calc(100% - 30px);
+        min-width: calc(100% - 30px);
+        max-width: -webkit-calc(100% - 30px);
+        max-width: -moz-calc(100% - 30px);
+        max-width: -o-calc(100% - 30px);
+        max-width: -ms-calc(100% - 30px);
+        max-width: calc(100% - 30px);
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .allPAgeWindowAreaInnerShoppingCartIncomeAndDeliveryAdressDetailsArea {
+        font-size: 13px;
+        width: -webkit-calc(100% - 29px);
+        width: -moz-calc(100% - 29px);
+        width: -o-calc(100% - 29px);
+        width: -ms-calc(100% - 29px);
+        width: calc(100% - 29px);
+        min-width: -webkit-calc(100% - 29px);
+        min-width: -moz-calc(100% - 29px);
+        min-width: -o-calc(100% - 29px);
+        min-width: -ms-calc(100% - 29px);
+        min-width: calc(100% - 29px);
+        max-width: -webkit-calc(100% - 29px);
+        max-width: -moz-calc(100% - 29px);
+        max-width: -o-calc(100% - 29px);
+        max-width: -ms-calc(100% - 29px);
+        max-width: calc(100% - 29px);
+    }
+}
+
+
+/*For M, S, XS devices */
+
+@media screen and (max-width:991px) {
+    .allPAgeWindowAreaInnerShoppingCartIncomeAndDeliveryAdressDetailsArea {
+        font-size: 12px;
+        width: -webkit-calc(100% - 28px);
+        width: -moz-calc(100% - 28px);
+        width: -o-calc(100% - 28px);
+        width: -ms-calc(100% - 28px);
+        width: calc(100% - 28px);
+        min-width: -webkit-calc(100% - 28px);
+        min-width: -moz-calc(100% - 28px);
+        min-width: -o-calc(100% - 28px);
+        min-width: -ms-calc(100% - 28px);
+        min-width: calc(100% - 28px);
+        max-width: -webkit-calc(100% - 28px);
+        max-width: -moz-calc(100% - 28px);
+        max-width: -o-calc(100% - 28px);
+        max-width: -ms-calc(100% - 28px);
+        max-width: calc(100% - 28px);
+    }
 }
