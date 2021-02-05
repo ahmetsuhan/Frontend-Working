@@ -8157,8 +8157,6 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
 @media screen and (min-width:1200px) {
     .allPAgeWindowAreaInnerShoppingCartIncomeAndDeliveryAdressesInfoNewAddressAddArea {
         font-size: 14px;
-        padding-top: 3px;
-        padding-bottom: 3px;
     }
 }
 
@@ -8167,8 +8165,6 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
 
 @media screen and (min-width:992px) and (max-width:1199px) {
     .allPAgeWindowAreaInnerShoppingCartIncomeAndDeliveryAdressesInfoNewAddressAddArea {
-        padding-top: 2px;
-        padding-bottom: 2px;
         font-size: 13px;
     }
 }
@@ -8178,8 +8174,6 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
 
 @media screen and (max-width:991px) {
     .allPAgeWindowAreaInnerShoppingCartIncomeAndDeliveryAdressesInfoNewAddressAddArea {
-        padding-top: 1px;
-        padding-bottom: 1px;
         font-size: 12px;
     }
 }
@@ -8284,7 +8278,7 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
     padding: 0;
     overflow: hidden;
     border: none;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px dashed #ddd;
     outline: none;
     background-color: #fff;
     text-align: left;
@@ -8509,4 +8503,76 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
         max-width: -ms-calc(100% - 28px);
         max-width: calc(100% - 28px);
     }
+}
+
+.allPAgeWindowAreaInnerShoppingCartDeliveryAddressesArea {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: left;
+    /*vertical-align: top;*/
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .allPAgeWindowAreaInnerShoppingCartDeliveryAddressesArea {
+        margin-top: 10px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .allPAgeWindowAreaInnerShoppingCartDeliveryAddressesArea {
+        margin-top: 9px;
+    }
+}
+
+
+/*For M, S, XS devices */
+
+@media screen and (max-width:991px) {
+    .allPAgeWindowAreaInnerShoppingCartDeliveryAddressesArea {
+        margin-top: 8px;
+    }
+}
+
+.allPAgeWindowAreaInnerShoppingCartDeliveryAddressesArea a {
+    font-family: Arial, "Helvatica Neue", Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+    transition: all 0.3s ease 2ms;
+}
+
+.allPAgeWindowAreaInnerShoppingCartDeliveryAddressesArea a:link,
+.allPAgeWindowAreaInnerShoppingCartDeliveryAddressesArea a:active,
+.allPAgeWindowAreaInnerShoppingCartDeliveryAddressesArea a:visited {
+    font-family: Arial, "Helvatica Neue", Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.allPAgeWindowAreaInnerShoppingCartDeliveryAddressesArea a:hover {
+    font-family: Arial, "Helvatica Neue", Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
 }
