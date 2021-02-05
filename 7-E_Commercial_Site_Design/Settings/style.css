@@ -7967,7 +7967,7 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
 }
 
 
-/*For M,S,XS devices */
+/*For M devices */
 
 @media screen and (min-width:768px) and (max-width:991px) {
     .allPAgeWindowAreaInnerShoppingCartDiscountsSumKDVDahilDigitArea {
@@ -8000,4 +8000,69 @@ asdasd #allPAgeWindowAreaInnerEmptyDataContentArea a {
         padding-bottom: 8px;
         padding-right: 5px;
     }
+}
+
+
+/*ShoppingCart-invoice-and-delivery-adresses.html */
+
+.allPAgeWindowAreaInnerShoppingCartIncomesArea {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: left;
+    /*vertical-align: top;*/
+}
+
+
+/*For XL devices */
+
+@media screen and (min-width:1200px) {
+    .allPAgeWindowAreaInnerShoppingCartIncomesArea {
+        margin-top: 10px;
+    }
+}
+
+
+/*For L devices */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .allPAgeWindowAreaInnerShoppingCartIncomesArea {
+        margin-top: 9px;
+    }
+}
+
+
+/*For M, S, XS devices */
+
+@media screen and (max-width:991px) {
+    .allPAgeWindowAreaInnerShoppingCartIncomesArea {
+        margin-top: 8px;
+    }
+}
+
+.allPAgeWindowAreaInnerShoppingCartIncomeAndDeliveryAdressesInfoArea {
+    display: block;
+    width: -webkit-calc(100% - 10px);
+    width: -moz-calc(100% - 10px);
+    width: -o-calc(100% - 10px);
+    width: -ms-calc(100% - 10px);
+    width: calc(100% - 10px);
+    min-width: -webkit-calc(100% - 10px);
+    min-width: -moz-calc(100% - 10px);
+    min-width: -o-calc(100% - 10px);
+    min-width: -ms-calc(100% - 10px);
+    min-width: calc(100% - 10px);
+    max-width: -webkit-calc(100% - 10px);
+    max-width: -moz-calc(100% - 10px);
+    max-width: -o-calc(100% - 10px);
+    max-width: -ms-calc(100% - 10px);
+    max-width: calc(100% - 10px);
 }
