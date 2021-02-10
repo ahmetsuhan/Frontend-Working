@@ -4,7 +4,7 @@ import {SidebarContainer,Icon,SidebarLink,SidebarMenu,SidebarRoute,SidebarBtnWra
 function Sidebar({isOpen,toggle}) {
     return (
         <SidebarContainer isOpen={isOpen} onClick={toggle}>
-            <Icon>
+            <Icon onClick={toggle}>
                 <CloseIcon/>
                 <SidebarMenu>
                     <SidebarLink to="/">Pizzas</SidebarLink>
