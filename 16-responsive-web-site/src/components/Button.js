@@ -1,26 +1,35 @@
 import React from 'react';
 import './Button.css';
 
-const STYLES = ['btn--primary','btn--outline'];
-const SIZES = ['btn--medium','btn--large','btn--mobile','btn--wide'];
-const COLOR=['primary','blue','gereen','red'];
+const STYLES = ['btn--primary', 'btn--outline'];
 
-export const Button=({
-    children,
-    type,
-    onClick,
-    buttonStyle,
-    buttonSize,
-    buttonColor}) =>{
+const SIZES = ['btn--medium', 'btn--large', 'btn--mobile', 'btn--wide'];
 
-        const checkButtonStyle=STYLES.includes(buttonStyle)?buttonStyle:STYLES[0];
+const COLOR = ['primary', 'blue', 'red', 'green'];
 
-        const checkButtonSize = SIZES.includes(buttonSize)?buttonSize:SIZES[0];
+export const Button = ({
+  children,
+  type,
+  onClick,
+  buttonStyle,
+  buttonSize,
+  buttonColor
+}) => {
+  const checkButtonStyle = STYLES.includes(buttonStyle)
+    ? buttonStyle
+    : STYLES[0];
 
-        const checkButtonColor=COLOR.includes(buttonColor)?buttonColor:COLOR[0];
+  const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
-        return(
-            <button className={`btn ${checkButtonStyle} ${checkButtonSize} ${checkButtonColor}`} onClick={onClick} type={type}>{children}</button>
-        )
-    }
-    export default Button;
+  const checkButtonColor = COLOR.includes(buttonColor) ? buttonColor : null;
+
+  return (
+    <button
+      className={`btn ${checkButtonStyle} ${checkButtonSize} ${checkButtonColor}`}
+      onClick={onClick}
+      type={type}
+    >
+      {children}
+    </button>
+  );
+};
